@@ -1,0 +1,22 @@
+.displayFlex{
+    display: flex;
+    align-items: center;
+    width: 105vh;
+    height: 85vh;
+    margin: auto;
+    text-align: center;
+}
+.imgPresentation{
+    width: 280px;
+    height: 400px;
+    padding: 10px;
+}
+.presentation{
+    padding: 10px;
+    padding-top: 0px;
+}
+.tecnologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
