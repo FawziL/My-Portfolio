@@ -1,3 +1,10 @@
 *{
   text-align: center;
 }
+
+.text{
+  margin: auto;
+  width: 550px;
+  font-size: 18px;
+  padding: 10px;
+}
