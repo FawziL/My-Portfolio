@@ -1,9 +1,8 @@
 .displayFlex{
     display: flex;
-    align-items: center;
-    width: 105vh;
-    margin: auto;
-    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    height: 94vh;
 }
 .imgPresentation{
     width: 280px;
@@ -13,6 +12,7 @@
 .presentation{
     padding: 10px;
     padding-top: 0px;
+    width: 70vh;
 }
 .tecnologies{
     display: flex;

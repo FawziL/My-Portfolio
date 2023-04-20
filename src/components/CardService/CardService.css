@@ -2,7 +2,7 @@
     background-color:rgb(216, 221, 226);
     border-radius: 8px;
     width: 200px;
-    height: 170px;
+    height: 190px;
     margin: 40px;
 }
 .CardService p{
@@ -10,4 +10,5 @@
     text-align: left;
     padding: 10px;
     margin: 10px;
+    color: black;
 }

@@ -1,10 +1,49 @@
+nav{
+  display: flex;
+}
+h1{
+  margin: 5px;
+  margin-right: 20px;
+  margin-left: 50px;
+  text-decoration:underline;
+  font-size: 27px;
+}
 ul{
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
   margin: 5px;
+  width: 100%;
 }
 li{
   padding: 5px;
   margin-right: 15px;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.dark-mode a{
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+.light-mode a{
+  color: #000000;
+}
+.theme{
+  background-color: transparent;
+  border: none;
+}
+.theme img{
+  width: 25px;
+  height: 25px;
+}
+.theme img:hover{
+  transform: rotate(60deg);
+
 }
