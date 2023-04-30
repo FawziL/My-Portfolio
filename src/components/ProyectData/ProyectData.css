@@ -4,7 +4,7 @@
 }
 img{
     width: 200px;
-    height: 160px;
+    height: 150px;
     border-radius: 15px;
     margin: 10px;
 }
@@ -12,15 +12,16 @@ img{
     display: flex;
 }
 .proyects{
-    background-color: rgb(204, 204, 204);
-    border-radius: 15px;
-    margin: 35px;
+    background-color: rgb(175, 171, 177);
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 55px;
     color: black;
-    height: 251px;
+    height: 231px;
 }
 .proyects h3{
     margin: 0px;
-    padding: 10px;
+    padding: 6px;
 }
 .pages{
     background-color: #005dc1;
@@ -44,24 +45,18 @@ a img{
 .with200{
     width: 210px;
 }
-#miDiv1, #miDiv2, #miDiv3{
-    display: none;
+#miDiv1, #miDiv2, #miDiv3, #miDiv4{
+    display: none;  
 }
 .buttonTecnologies{
     border-radius: 3px;
     width: 450px;
     border: none;
-    background-color: rgb(86, 81, 81);
+    background-color: rgb(85, 77, 91);
     color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.buttonTecnologies img{
-    width: 55px;
-    height: 25px;
-    margin: 0px;
+    padding: 4px;
+    font-size: 14px;
 }
 .buttonTecnologies:hover{
-    background-color: rgb(70, 58, 58);
+    background-color: rgb(56, 48, 62);
 }

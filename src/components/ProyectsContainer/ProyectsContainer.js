@@ -13,13 +13,12 @@ function Proyects() {
           console.log(error)
       })
   }, [])
-  console.log(productos);
-
+  
   return (
-    <>
+    <div className='container'>
         <h2 id='Proyects'>Últimos proyectos</h2>
         <ProyectList  productos={productos}/>  
-    </>
+    </div>
   );
 }
 

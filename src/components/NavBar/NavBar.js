@@ -3,7 +3,6 @@ import sun from '../../assets/icons/sun.svg';
 import moon from '../../assets/icons/moon.svg';
 
 function NavBar({ toggleTheme, darkMode }) {
-  console.log(darkMode)
   return (
     <nav> 
         <div className='dFlex'>
@@ -13,6 +12,7 @@ function NavBar({ toggleTheme, darkMode }) {
         </div>
         <ul>
             <li><a href="#Services">Servicios</a></li>
+            <li><a href="#Skills">Habilidades</a></li>
             <li><a href="#Proyects">Proyectos</a></li>
             <li><a href="#Contact">Contacto</a></li>
         </ul>

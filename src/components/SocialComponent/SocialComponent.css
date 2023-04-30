@@ -1,5 +1,5 @@
 .SocialComponent{
-    width: 250px;
+    width: 280px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -8,7 +8,13 @@
     width: 70px;
     height: 60px;
 }
+.SocialComponent img:hover{
+    background-color: rgb(175, 171, 177);
+}
 .SocialComponent p{
+    width: 180px;
     font-size: 16px;
     padding-top: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

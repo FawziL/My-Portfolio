@@ -1,11 +1,9 @@
-import './Contact.css';
-import Form from '../Form/Form.js'
 import SocialComponent from '../SocialComponent/SocialComponent';
 import ButtonDownload from '../ButtonDownload/ButtonDownload';
 
 function Contact() {
   return (
-    <>
+    <div className='container'>
         <h2 id='Contact'>Contacto</h2>
 
         <p className='text'>
@@ -18,13 +16,8 @@ function Contact() {
             ¡Descarga mi CV para conocer más acerca de mi experiencia y habilidades como desarrollador web!
         </p>
 
-        <ButtonDownload />
-
-      <section className='form'>
-        <Form />
-      </section>
-        
-    </>
+        <ButtonDownload />  
+    </div>
   );
 }
 

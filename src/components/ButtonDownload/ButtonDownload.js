@@ -1,7 +1,8 @@
 import './ButtonDownload.css';
+import CV from '../../assets/CV Fawzi Lutfallah.pdf';
 function ButtonDownload() {
   const ButtonDownload = () => {
-    window.open("/static/media/certificate_level6.d50a77e52618977cb277.pdf");
+    window.open(CV);
   };
 
   return (

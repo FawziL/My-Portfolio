@@ -1,0 +1,8 @@
+.dFlexSkills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px;
+    margin: 40px;
+}

@@ -1,14 +1,56 @@
 .CardService{
-    background-color:rgb(216, 221, 226);
+    background-color:#2e2447;
     border-radius: 8px;
     width: 200px;
     height: 190px;
     margin: 40px;
+    box-shadow: 3px 3px 5px #646464;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.dark-mode .CardService {
+
+    box-shadow: 1px 1px 7px #787878;
 }
 .CardService p{
     font-size: 20px;
     text-align: left;
     padding: 10px;
     margin: 10px;
-    color: black;
+    padding-top: 0px;
+    color: white;
 }
+
+.CardService:hover{
+    background-color: rgb(175, 171, 177);
+}
+
+.CardService:hover p{
+    color: black
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+  
+.card-front {
+    z-index: 2;
+    transform: rotateY(0);
+}
+  
+.card-back {
+    transform: rotateY(-180deg);
+    color:black
+}
+  
+.CardService:hover .card-front {
+    transform: rotateY(180deg);
+}
+  
+.CardService:hover .card-back {
+    transform: rotateY(0);
+}
+  
