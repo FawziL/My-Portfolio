@@ -3,6 +3,9 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 1000px;
-    margin: 40px;
+    width: 800px;
+    margin: 35px;
+}
+#Skills h2{
+    margin-top: 30px;
 }

@@ -13,8 +13,7 @@ function ProyectData({id, title, proyectThumbnail, text, code, live, tecnologies
     
   }
   return (
-    <div className='proyects'>
-        <h3>{title}</h3>
+    <div id={`proyect${id}`}>
             <div className='section'>
                 <img src={proyectThumbnail} alt="Imagen del proyecto: "/>
                 <div>
@@ -27,9 +26,9 @@ function ProyectData({id, title, proyectThumbnail, text, code, live, tecnologies
             </div>
             
             <div className='products'>
-            <button onClick={display} className='buttonTecnologies'>
-                Tecnologías empleadas 
-            </button>
+              <button onClick={display} className='buttonTecnologies'>
+                  Tecnologías empleadas 
+              </button>
               <div className='tecnologies' id={`miDiv${id}`}>
                 {
                   tecnologies.map((tecnology, index) => (

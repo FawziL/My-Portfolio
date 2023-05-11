@@ -1,0 +1,27 @@
+#proyect2, #proyect3, #proyect4{
+    display: none;  
+    margin: auto;
+}
+#proyect1{
+    display: block;
+    margin: auto;
+}
+.listProyects{
+    width: 300px;
+    font-size: 20px;
+    list-style-type: none;
+    font-weight: bold;
+}
+.listProyects li{
+    margin: 12px;
+}
+.dark-mode .listProyects li:hover{
+    font-size: 21px;
+    color: white;
+}
+.listProyects li:hover{
+    font-size: 21px;
+}
+#proyectLi1{
+    background-color: rgb(59, 55, 94);
+}

@@ -1,5 +1,6 @@
 import SocialComponent from '../SocialComponent/SocialComponent';
 import ButtonDownload from '../ButtonDownload/ButtonDownload';
+import Footer from '../Footer/Footer';
 
 function Contact() {
   return (
@@ -17,6 +18,8 @@ function Contact() {
         </p>
 
         <ButtonDownload />  
+
+        <Footer /> 
     </div>
   );
 }

@@ -5,10 +5,10 @@ function CardService({titleService, textService}) {
     <>
         <div className='CardService'>
 
-          <div class="card-front">
+          <div className="card-front">
           <p>{titleService}</p>
           </div>
-          <div class="card-back">
+          <div className="card-back">
             <p>{textService}</p>
           </div>
 

@@ -1,12 +1,13 @@
 .SocialComponent{
-    width: 280px;
+    width: 300px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
 .SocialComponent img{
-    width: 70px;
-    height: 60px;
+    width: 80px;
+    height: 70px;
+    margin: 5px;
 }
 .SocialComponent img:hover{
     background-color: rgb(175, 171, 177);
@@ -15,6 +16,13 @@
     width: 180px;
     font-size: 16px;
     padding-top: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.SocialComponent a{
+    width: 180px;
+    font-size: 16px;
+    padding-top: 22px;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }

@@ -9,9 +9,9 @@ function SocialComponent() {
   return (
     <div className='SocialComponent'>
         <Tecnologies img={github} />
-        <p>github.com/FawziL</p>
+        <a href='https://github.com/FawziL'>github.com/FawziL</a>       
         <Tecnologies img={linkedin} />
-        <p>linkedin.com/in/fawzi-lutfallah-62184b236/</p>
+        <a href='https://linkedin.com/in/fawzi-lutfallah-62184b236/'>linkedin.com/in/fawzi-lutfallah-62184b236/</a>       
         <Tecnologies img={address} />
         <p>+58 4149541095</p>
         <Tecnologies img={envelope} />

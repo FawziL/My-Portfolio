@@ -1,7 +1,8 @@
 .proyectListContainer{
     margin: auto;
-    width: 1100px;
+    width: 1000px;
+}
+
+.proyectListData{
     display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
 }

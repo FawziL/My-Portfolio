@@ -19,3 +19,27 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/* Regla @keyframes estándar para la animación "blink" */
+@keyframes blink {
+    50% { border-color: transparent }
+}
+
+/* Regla @keyframes estándar para la animación "typing" */
+@keyframes typing {
+    from { width: 0 }
+}
+
+/* Regla CSS para aplicar las animaciones */
+span h2 {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 410px;
+    margin-left: 50px;
+    font-size: 24px;
+    animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+    overflow:hidden;
+}
