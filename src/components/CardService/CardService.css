@@ -9,7 +9,7 @@
     transform-style: preserve-3d;
 }
 .dark-mode .CardService {
-    box-shadow: 1px 1px 7px #787878;
+    box-shadow: 3px 3px 5px #646464;
 }
 .CardService p{
     font-size: 20px;
@@ -21,7 +21,7 @@
 }
 
 .CardService:hover{
-    background-color: rgb(175, 171, 177);
+    background-color: rgb(190, 186, 192);
 }
 
 .CardService:hover p{

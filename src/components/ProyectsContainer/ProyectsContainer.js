@@ -15,8 +15,8 @@ function Proyects() {
   }, [])
   
   return (
-    <div className='container'>
-        <h2 id='Proyects'>Últimos proyectos</h2>
+    <div id='Proyects'>
+        <h2>Últimos proyectos</h2>
         <ProyectList  productos={productos}/>  
     </div>
   );

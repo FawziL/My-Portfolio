@@ -2,10 +2,22 @@
   text-align: center;
   text-decoration: none;
 }
-
 .text{
   margin: auto;
   width: 550px;
   font-size: 18px;
   padding: 10px;
+}
+.vh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.homeVh{
+  height: 100vh;
+  background-image: url('./assets/descarga.png');
+  background-position: 20% 50%;
+  background-size: 40%;
+  background-repeat: no-repeat;
 }

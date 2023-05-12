@@ -8,24 +8,33 @@ import ProyectsContainer from './components/ProyectsContainer/ProyectsContainer.
 import Contact from './components/Contact/Contact.js'
 
 function App() {
-  const [darkMode, setTheme] = useState(false);
-
+  const [darkMode, setTheme] = useState(true);
   const toggleTheme = () => {
     setTheme(!darkMode);
   };
 
   return (
       <div className={darkMode ? 'dark-mode' : 'light-mode'}>
-        <NavBar toggleTheme={toggleTheme} darkMode={darkMode}/>
-        <Home />
-        <section  className='vh'>
-          <Services/>
+        <section className='homeVh'>
+          <NavBar toggleTheme={toggleTheme} darkMode={darkMode}/>
+          <Home />
         </section>
-        <section  className='vh'>
-          <Skills/>
+        
+        <section className='vh'>
+        <Services/>
         </section>
+
+        <section className='vh'>
+        <Skills/>
+        </section>
+
+        <section className='vh'>
         <ProyectsContainer/>
+        </section>
+
+        <section className='vh'>
         <Contact/>
+        </section>
       </div>
   );
 }

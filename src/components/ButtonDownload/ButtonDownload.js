@@ -7,7 +7,7 @@ function ButtonDownload() {
 
   return (
     <button onClick={ButtonDownload} className='ButtonDownload'>
-      Descargar currículum
+      Descargar CV
     </button>
   );
 }

@@ -1,25 +1,16 @@
-.displayFlex{
+.presentation1{
+    height: 100%;
+    width: 85%;
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 94vh;
-}
-.imgPresentation{
-    width: 400px;
-    height: 400px;
-    padding: 10px;
-}
-.presentation{
-    padding: 10px;
-    padding-top: 0px;
-    width: 70vh;
-}
-.tecnologies{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
+.presentation{
+    padding: 10px;
+    width: 70vh;
+    margin-top:  auto;
+    margin-bottom:  auto;
+}
 
 /* Regla @keyframes estándar para la animación "blink" */
 @keyframes blink {

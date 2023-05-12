@@ -3,7 +3,6 @@ import CardService from '../CardService/CardService.js'
 
 function Services() {
   return (
- 
     <div id='Services'>
       <h2>Servicios</h2>
 
@@ -20,8 +19,6 @@ function Services() {
         <CardService titleService={"Integración de plataformas y herramientas."} textService={"Incorporación de diversas plataformas y herramientas."}/>
       </div>  
     </div>
-
- 
   );
 }
 

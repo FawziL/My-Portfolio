@@ -4,8 +4,8 @@ import Footer from '../Footer/Footer';
 
 function Contact() {
   return (
-    <div className='container'>
-        <h2 id='Contact'>Contacto</h2>
+    <div id='Contact'>
+        <h2>Contacto</h2>
 
         <p className='text'>
             Sí estás interesado en trabajar conmigo o tienes alguna pregunta, no dudes en ponerte en contacto.
