@@ -14,10 +14,6 @@
   align-items: center;
   min-height: 100vh;
 }
-.homeVh{
+#homeVh{
   height: 100vh;
-  background-image: url('./assets/descarga.png');
-  background-position: 20% 50%;
-  background-size: 40%;
-  background-repeat: no-repeat;
 }

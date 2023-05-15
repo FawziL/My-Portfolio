@@ -1,10 +1,10 @@
 .ContainerTL{
-    width: 106px;
+    width: 90px;
     height: 90px;
     margin: 20px;
     padding: 10px;
-    background-color:rgb(85, 77, 91);
-    border-radius: 70px;
+    background-color: #0450a2;
+    border-radius: 50%;
 }
 .ContainerTL p{
     margin: 0px;
@@ -12,12 +12,42 @@
     color: white;
 }
 
-.ContainerTL:hover{
-    background-color:rgb(56, 48, 62);
-}
-
 .tecnologyL{
     width: 50px;
     height: 50px;
-    padding: 5px;
+    padding: 10px;
+}
+
+.ContainerTL:hover img{
+    height: 65%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+}
+  
+@keyframes anim {
+    0% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-10px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+}
+.textBox {
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+    position: relative;
+    top: -65px;
+}
+
+.ContainerTL:hover > .textBox {
+    opacity: 1;
+}
+.ContainerTL:hover{
+    background-color: black;
 }

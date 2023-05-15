@@ -1,36 +1,43 @@
-.presentation1{
-    height: 100%;
-    width: 85%;
-    display: flex;
-    justify-content: flex-end;
-}
-
 .presentation{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.presentation img{
+    width: 38%;
+    height: 92%;
+    border-radius: 50px;
+}
+.presentationText{
     padding: 10px;
-    width: 70vh;
-    margin-top:  auto;
-    margin-bottom:  auto;
+    width: 80vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-/* Regla @keyframes estándar para la animación "blink" */
 @keyframes blink {
     50% { border-color: transparent }
 }
 
-/* Regla @keyframes estándar para la animación "typing" */
 @keyframes typing {
     from { width: 0 }
 }
 
-/* Regla CSS para aplicar las animaciones */
 span h2 {
     display: block;
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 410px;
+    width: 340px;
     margin-left: 50px;
     font-size: 24px;
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
+}
+.jobTitle{
+    color: rgb(83, 42, 123);
+    font-size: 28px;
+    font-weight: bold;
 }

@@ -21,6 +21,7 @@
 }
 .listProyects li:hover{
     font-size: 21px;
+    cursor: pointer;
 }
 #proyectLi1{
     background-color: rgb(59, 55, 94);

@@ -3,9 +3,9 @@ import github from '../../assets/icons/github.svg';
 import Tecnologies from '../Tecnologies/Tecnologies';
 import arrow from '../../assets/icons/arrow.svg';
 
-function ProyectData({id, title, proyectThumbnail, text, code, live, tecnologies}) {
+function ProyectData({id, proyectThumbnail, text, code, live, tecnologies}) {
   function display(){
-    if(document.getElementById(`miDiv${id}`).style.display !== "block"){
+    if(window.getComputedStyle(document.getElementById(`miDiv${id}`)).display !== "block"){
       document.getElementById(`miDiv${id}`).style.display = "block";
     }else{
       document.getElementById(`miDiv${id}`).style.display = "none";

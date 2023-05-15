@@ -17,7 +17,7 @@ function Skills() {
       <h2>Habilidades</h2>
 
       <p className='text'>
-        Estas son las tecnologias que he aprendido, puesto en practica y/o trabajado con ellas.
+        Estas son las tecnologías que he aprendido, puesto en práctica y/o trabajado con ellas.
       </p>
 
       <div className='dFlexSkills'>

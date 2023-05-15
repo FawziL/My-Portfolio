@@ -1,17 +1,12 @@
-.CardService{
-    background-color:#2e2447;
-    border-radius: 8px;
+.flip-card {
     width: 200px;
     height: 190px;
     margin: 30px;
-    box-shadow: 3px 3px 5px #646464;
-    position: relative;
-    transform-style: preserve-3d;
+    perspective: 1000px;
+    color: white;  
 }
-.dark-mode .CardService {
-    box-shadow: 3px 3px 5px #646464;
-}
-.CardService p{
+
+.flip-card p{
     font-size: 20px;
     text-align: left;
     padding: 10px;
@@ -20,36 +15,34 @@
     color: white;
 }
 
-.CardService:hover{
-    background-color: rgb(190, 186, 192);
-}
-
-.CardService:hover p{
-    color: black
-}
-
-.card-front, .card-back {
-    position: absolute;
+.flip-card-inner {
+    background-color:#2e2447;
+    box-shadow: 3px 3px 5px #646464;
+    border-radius: 10px;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
   
-.card-front {
-    z-index: 2;
-    transform: rotateY(0);
-}
-  
-.card-back {
-    transform: rotateY(-180deg);
-    color:black
-}
-  
-.CardService:hover .card-front {
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
   
-.CardService:hover .card-back {
-    transform: rotateY(0);
+.flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
 }
-  
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}

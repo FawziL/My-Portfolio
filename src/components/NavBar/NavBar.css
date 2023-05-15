@@ -66,5 +66,5 @@ nav a:hover{
 }
 .theme img:hover{
   transform: rotate(66deg);
-
+  cursor: pointer;
 }

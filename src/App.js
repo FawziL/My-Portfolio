@@ -7,6 +7,7 @@ import Skills from './components/Skills/Skills.js'
 import ProyectsContainer from './components/ProyectsContainer/ProyectsContainer.js'
 import Contact from './components/Contact/Contact.js'
 
+
 function App() {
   const [darkMode, setTheme] = useState(true);
   const toggleTheme = () => {
@@ -15,7 +16,7 @@ function App() {
 
   return (
       <div className={darkMode ? 'dark-mode' : 'light-mode'}>
-        <section className='homeVh'>
+        <section id='homeVh'>
           <NavBar toggleTheme={toggleTheme} darkMode={darkMode}/>
           <Home />
         </section>

@@ -35,7 +35,7 @@ a img{
     width: 230px;
     font-size: 19px;
 }
-#miDiv1, #miDiv2, #miDiv3, #miDiv4{
+#miDiv2, #miDiv3, #miDiv4{
     display: none;  
 }
 .buttonTecnologies{
@@ -46,6 +46,7 @@ a img{
     color: white;
     padding: 6px;
     font-size: 16px;
+    cursor: pointer;
 }
 .buttonTecnologies:hover{
     background-color: rgb(56, 48, 62);

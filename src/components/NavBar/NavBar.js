@@ -8,7 +8,6 @@ function NavBar({ toggleTheme, darkMode }) {
         <div className='dFlex'>
           <h1>PORTFOLIO</h1>
           <button onClick={toggleTheme} className='theme'><img src={darkMode ? sun : moon} alt='theme'/></button>
-          <button>Idioma</button>
         </div>
         <ul>
             <li><a href="#Services">Servicios</a></li>
