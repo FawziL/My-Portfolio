@@ -15,6 +15,7 @@ function App() {
   };
 
   return (
+    
       <div className={darkMode ? 'dark-mode' : 'light-mode'}>
         <section id='homeVh'>
           <NavBar toggleTheme={toggleTheme} darkMode={darkMode}/>

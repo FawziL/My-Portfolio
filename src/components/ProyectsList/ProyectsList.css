@@ -15,8 +15,7 @@
 .listProyects li{
     margin: 12px;
 }
-.dark-mode .listProyects li:hover{
-    font-size: 21px;
+.dark-mode .listProyects li{
     color: white;
 }
 .listProyects li:hover{

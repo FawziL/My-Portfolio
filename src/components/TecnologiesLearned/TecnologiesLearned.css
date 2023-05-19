@@ -3,27 +3,24 @@
     height: 90px;
     margin: 20px;
     padding: 10px;
-    background-color: #0450a2;
+    background: linear-gradient(90deg, rgba(46,36,71,1) 8%, rgba(4,80,162,1) 72%, rgba(0,98,204,1) 98%);
     border-radius: 50%;
 }
 .ContainerTL p{
     margin: 0px;
     font-size: 20px;
-    color: white;
+    font-weight: bold;
 }
-
 .tecnologyL{
     width: 50px;
     height: 50px;
     padding: 10px;
 }
-
 .ContainerTL:hover img{
     height: 65%;
     filter: blur(7px);
     animation: anim 3s infinite;
 }
-  
 @keyframes anim {
     0% {
       transform: translateY(0);
@@ -44,10 +41,13 @@
     position: relative;
     top: -65px;
 }
-
 .ContainerTL:hover > .textBox {
     opacity: 1;
 }
 .ContainerTL:hover{
-    background-color: black;
+    background: black;
+}
+.light-mode .ContainerTL:hover{
+    background: rgb(255, 255, 255);
+    color: black;
 }

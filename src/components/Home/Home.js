@@ -12,9 +12,8 @@ function Home() {
         </span>
         <h2 className='jobTitle'>Desarrollador Web Fullstack</h2>
         <p>
-            Tengo conocimientos en programación front-end y back-end, 
-            bases de datos, servidores web y herramientas de desarrollo de software. Estoy emocionado de 
-            aprender cosas nuevas y estar al día con las últimas tecnologías.
+            Tengo conocimientos en programación Front-end y Back-end. 
+            Estoy feliz de aprender nuevas tecnologías y estar al día con las últimas actualizaciones.
         </p>
         <ButtonDownload />  
       </div>

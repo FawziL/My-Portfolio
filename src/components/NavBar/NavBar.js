@@ -6,7 +6,11 @@ function NavBar({ toggleTheme, darkMode }) {
   return (
     <nav> 
         <div className='dFlex'>
-          <h1>PORTFOLIO</h1>
+          <div className='logo'>
+            <p className='Fl'>FL</p>
+            <hr/>
+            <p className='webDev'>Web Developer</p>
+          </div>
           <button onClick={toggleTheme} className='theme'><img src={darkMode ? sun : moon} alt='theme'/></button>
         </div>
         <ul>

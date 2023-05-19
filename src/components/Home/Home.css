@@ -6,9 +6,9 @@
     margin: auto;
 }
 .presentation img{
-    width: 38%;
-    height: 92%;
-    border-radius: 50px;
+    width: 40%;
+    height: 91.5%;
+    border-radius: 250px;
 }
 .presentationText{
     padding: 10px;
@@ -31,13 +31,13 @@ span h2 {
     white-space: nowrap;
     border-right: 4px solid;
     width: 340px;
-    margin-left: 50px;
+    margin-left: 70px;
     font-size: 24px;
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
 }
 .jobTitle{
     color: rgb(83, 42, 123);
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
 }
