@@ -34,6 +34,7 @@ a img{
 .with200{
     width: 230px;
     font-size: 19px;
+    padding-top: 15px;
 }
 #miDiv2, #miDiv3, #miDiv4{
     display: none;  

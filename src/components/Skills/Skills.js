@@ -9,16 +9,15 @@ import typescript from '../../assets/icons/typescript.svg';
 import github from '../../assets/icons/github.svg';
 import mongodb from '../../assets/icons/mongodb.svg';
 import bootstrap from '../../assets/icons/bootstrap.svg';
+import { FormattedMessage} from 'react-intl';
 
 function Skills() {
   return (
  
     <div id='Skills'>
-      <h2>Habilidades</h2>
+      <h2><FormattedMessage id="skills"/></h2>
 
-      <p className='text'>
-        Estas son las tecnologías que he aprendido, puesto en práctica y/o trabajado con ellas.
-      </p>
+      <p className='text'><FormattedMessage id="skillPresentation"/></p>
 
       <div className='dFlexSkills'>
         <TecnologiesLearned name={"Html"} tecnology={html} />

@@ -5,7 +5,7 @@ function CardService({titleService, textService}) {
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-            <p>{titleService}</p>
+            <h3>{titleService}</h3>
         </div>
         <div class="flip-card-back">
             <p>{textService}</p>

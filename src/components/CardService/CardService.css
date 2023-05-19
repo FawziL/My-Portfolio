@@ -7,14 +7,20 @@
 }
 
 .flip-card p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     padding: 10px;
     margin: 10px;
     padding-top: 0px;
     color: white;
 }
-
+.flip-card h3{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 0px;
+    color: white;
+}
 .flip-card-inner {
     background-color:#2e2447;
     box-shadow: 3px 3px 5px #646464;

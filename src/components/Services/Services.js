@@ -1,22 +1,29 @@
 import './Services.css';
 import CardService from '../CardService/CardService.js'
+import { FormattedMessage} from 'react-intl';
 
 function Services() {
   return (
     <div id='Services'>
-      <h2>Servicios</h2>
+      <h2><FormattedMessage id="services"/></h2>
 
-      <p className='text'>
-        Ya sea que necesites crear una nueva página web desde cero, actualizar 
-      o mantener una existente, o incluso diseñar una aplicación web personalizada, puedo ayudarte a alcanzar tus objetivos digitales.
-      </p>
+      <p className='text'><FormattedMessage id="servicePresentation"/></p>
 
       <div className='dFlexService'>
-        <CardService titleService={"Desarrollo de sitios web."} textService={"Creación de páginas web atractivas y funcionales para el usuario."}/>
-        <CardService titleService={"Mantenimiento y soporte."} textService={"Actualizaciones, corrección de errores, soporte técnico e implementación de mejoras."}/>
-        <CardService titleService={"Optimización para motores de búsqueda (SEO)."} textService={"Implementación de técnicas y estrategias para mejorar el posicionamiento de un sitio web."}/>
-        <CardService titleService={"Desarrollo de comercio electrónico."} textService={"Creación de ecommerce con gestión de inventario, carrito de compras y pago seguro."}/>
-        <CardService titleService={"Integración de plataformas y herramientas."} textService={"Incorporación de diversas plataformas y herramientas."}/>
+        <CardService titleService={<FormattedMessage id="serviceTitle1"/>} 
+        textService={<FormattedMessage id="serviceText1"/>}/>
+        
+        <CardService titleService={<FormattedMessage id="serviceTitle2"/>} 
+        textService={<FormattedMessage id="serviceText2"/>}/>
+
+        <CardService titleService={<FormattedMessage id="serviceTitle3"/>} 
+        textService={<FormattedMessage id="serviceText3"/>}/>
+
+        <CardService titleService={<FormattedMessage id="serviceTitle4"/>} 
+        textService={<FormattedMessage id="serviceText4"/>}/>
+
+        <CardService titleService={<FormattedMessage id="serviceTitle5"/>} 
+        textService={<FormattedMessage id="serviceText5"/>}/>
       </div>  
     </div>
   );

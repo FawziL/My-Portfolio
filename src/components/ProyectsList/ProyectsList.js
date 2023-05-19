@@ -1,6 +1,6 @@
 import './ProyectsList.css';
 
-function ProyectsList({id, title}) {
+function ProyectsList({id, title, titulo, locale}) {
   function display(){
     if(window.getComputedStyle(document.getElementById(`proyect${id}`)).display === "block"){
       document.getElementById(`proyect${id}`).style.display = "none";
@@ -13,7 +13,7 @@ function ProyectsList({id, title}) {
   
   return (
     <div className='listProyects'>
-        <li onClick={display} id={`proyectLi${id}`}>{title}</li>
+        <li onClick={display} id={`proyectLi${id}`}>{locale === 'en' ? title : titulo}</li>
     </div>
   );
 }

@@ -2,8 +2,9 @@ import './ProyectsContainer.css';
 import { useState, useEffect } from 'react';
 import ProyectList from '../ProyectList/ProyectList.js'
 import { getProductos } from '../../stock' 
+import { FormattedMessage} from 'react-intl';
 
-function Proyects() {
+function Proyects({locale}) {
   const [productos, setProductos] = useState([])
 
   useEffect(()=>{
@@ -16,8 +17,8 @@ function Proyects() {
   
   return (
     <div id='Proyects'>
-        <h2>Últimos proyectos</h2>
-        <ProyectList  productos={productos}/>  
+        <h2><FormattedMessage id="proyects"/></h2>
+        <ProyectList  productos={productos} locale={locale}/>  
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import './ButtonDownload.css';
 import CV from '../../assets/CV Fawzi Lutfallah.pdf';
+import {FormattedMessage} from 'react-intl';
+
 function ButtonDownload() {
   const ButtonDownload = () => {
     window.open(CV);
@@ -7,8 +9,7 @@ function ButtonDownload() {
 
   return (
     <button onClick={ButtonDownload} className='ButtonDownload'>
-      Descargar CV
-    </button>
+      <FormattedMessage id="buttonDownload"/></button>
   );
 }
 
