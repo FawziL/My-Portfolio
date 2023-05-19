@@ -3,8 +3,8 @@ import sun from '../../assets/icons/sun.svg';
 import moon from '../../assets/icons/moon.svg';
 import esLight from '../../assets/icons/esLight.png';
 import esDark from '../../assets/icons/esDark.png';
-import enLight from '../../assets/icons/enDark.png';
-import enDark from '../../assets/icons/enLight.png';
+import enLight from '../../assets/icons/enLight.png';
+import enDark from '../../assets/icons/enDark.png';
 import { FormattedMessage} from 'react-intl';
 
 function NavBar({ toggleTheme, darkMode, handleLanguage, locale }) {
@@ -24,8 +24,8 @@ function NavBar({ toggleTheme, darkMode, handleLanguage, locale }) {
                             : esDark 
                           : locale === 'es'
                           ? darkMode === true
-                            ? enDark
-                            : enLight
+                            ? enLight
+                            : enDark
                           : 'icono-otro-idioma'}  alt='language'/>
           </button>
         </div>
