@@ -7,6 +7,7 @@ import bootstrap from './assets/icons/bootstrap.svg';
 import react from './assets/icons/react.svg';
 import proyect from './assets/imagenPresentacion.jpg'
 import proyectForbes from './assets/proyects/forbes.png'
+import proyectToolShop from './assets/proyects/toolShop.png'
 
 const productos = [
     {
@@ -22,13 +23,13 @@ const productos = [
     },
     {
         id: '2',
-        title: "Proyect Aair-t-ToolShop", 
-        titulo: "Proyecto Aair-t-ToolShop",
-        proyectThumbnail: proyect, 
+        title: "Proyect AirT-ToolShop", 
+        titulo: "Proyecto AirT-ToolShop",
+        proyectThumbnail: proyectToolShop, 
         text: "This is a fully functional ecommerce for a construction supplies and tools company.",
         texto: "Este es un ecommerce totalmente funcional para una empresa de  herramientas y artículos de contrucción.", 
-        code: "Google.com", 
-        live: "Google.com",
+        code: "https://github.com/FawziL/Proyecto-ToolShop", 
+        live: "https://proyecto-toolshop-production.up.railway.app",
         tecnologies: [html, css, javascript, react, bootstrap],
     },
     {
