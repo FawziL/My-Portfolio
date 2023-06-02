@@ -8,6 +8,7 @@ import react from './assets/icons/react.svg';
 import proyect from './assets/imagenPresentacion.jpg'
 import proyectForbes from './assets/proyects/forbes.png'
 import proyectToolShop from './assets/proyects/toolShop.png'
+import proyectDalacer from './assets/proyects/dalacer.png'
 
 const productos = [
     {
@@ -36,11 +37,11 @@ const productos = [
         id: '3',
         title: "Proyect Dalacer", 
         titulo: "Proyecto Dalacer", 
-        proyectThumbnail: proyect, 
+        proyectThumbnail: proyectDalacer, 
         text: "This is a project for a dealership, where cars and prices can be detailed.",
         texto: "Este es un proyecto para un concesionario, donde se pueden detallar los autos y precios.",  
-        code: "https://github.com/FawziL/Proyecto-Forbes", 
-        live: "https://forbes-production.up.railway.app",
+        code: "https://github.com/FawziL/Proyecto-Dalacer", 
+        live: "https://proyecto-dalacer-production.up.railway.app",
         tecnologies: [html, css, javascript, bootstrap],
     },
     {
