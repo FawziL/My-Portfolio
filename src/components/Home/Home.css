@@ -31,10 +31,13 @@ span h2 {
     white-space: nowrap;
     border-right: 4px solid;
     width: 352px;
-    margin-left: 30px;
+    margin-left: 70px;
     font-size: 24px;
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
+}
+h2{
+    text-align: center;
 }
 .jobTitle{
     color: rgb(83, 42, 123);

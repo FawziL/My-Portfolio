@@ -5,7 +5,6 @@ import nodejs from './assets/icons/nodejs.svg';
 import mongodb from './assets/icons/mongodb.svg';
 import bootstrap from './assets/icons/bootstrap.svg';
 import react from './assets/icons/react.svg';
-import proyect from './assets/imagenPresentacion.jpg'
 import proyectForbes from './assets/proyects/forbes.png'
 import proyectToolShop from './assets/proyects/toolShop.png'
 import proyectDalacer from './assets/proyects/dalacer.png'
@@ -44,19 +43,7 @@ const productos = [
         live: "https://proyecto-dalacer-production.up.railway.app",
         tecnologies: [html, css, javascript, bootstrap],
     },
-    {
-        id: '4',
-        title: "Proyect Psicoéxito", 
-        titulo: "Proyecto Psicoéxito", 
-        proyectThumbnail: proyect, 
-        text: "This is a joint project for a psychologist who wants to introduce himself and his work.",
-        texto: "Este es un proyecto en conjunto para un psicólogo que desea presentarse así mismo y su trabajo.", 
-        code: "Google.com", 
-        live: "Google.com",
-        tecnologies: [html, css, javascript, bootstrap],
-    }
 ]
-
 
 export const getProductos = () =>{
     return new Promise (resolve =>{
