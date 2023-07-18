@@ -2,12 +2,12 @@ import './CardService.css';
 
 function CardService({titleService, textService}) {
   return (
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
+    <div className="flip-card">
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
             <h3>{titleService}</h3>
         </div>
-        <div class="flip-card-back">
+        <div className="flip-card-back">
             <p>{textService}</p>
         </div>
       </div>

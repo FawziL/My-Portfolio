@@ -44,3 +44,28 @@ h2{
     font-size: 30px;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .presentation{
+        display: block;
+        height: 95%;
+    }
+    .presentation img{
+        width: 70%;
+        height: 30%;
+    }
+    .presentationText{
+        width: 40vh;
+        margin:auto
+    }
+    span h2 {
+        width: 322px;
+        margin-left: 10px;
+        font-size: 22px;
+        animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+        overflow:hidden;
+    }
+    .vh {
+        min-height: 50vh;
+    }
+}

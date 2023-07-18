@@ -25,3 +25,13 @@
 #proyectLi1{
     background-color: rgb(59, 55, 94);
 }
+
+@media (max-width: 768px) {
+    .listProyects{
+        width: 320px;
+        font-size: 20px;
+        list-style-type: none;
+        font-weight: bold;
+        margin: auto;
+    }
+}

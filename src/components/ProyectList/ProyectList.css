@@ -6,3 +6,14 @@
 .proyectListData{
     display: flex;
 }
+@media (max-width: 768px) {
+    .proyectListContainer{
+        width: 100%;
+    }
+    
+    .proyectListData{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}

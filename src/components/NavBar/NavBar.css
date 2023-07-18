@@ -66,17 +66,21 @@ nav a:hover{
 .light-mode a{
   color: #000000;
 }
-.theme{
+.theme, .menu{
   background-color: transparent;
   border: none;
   margin-left: 18px;
 }
-.theme img{
+.theme img, .menu img{
   width: 25px;
   height: 25px;
 }
 .theme img:hover{
   transform: rotate(66deg);
+  cursor: pointer;
+}
+.menu img:hover{
+  transform: rotate(90deg);
   cursor: pointer;
 }
 .language{
@@ -89,4 +93,27 @@ nav a:hover{
 }
 .language img:hover{
   cursor: pointer;
+}
+.pruebaNav{
+  display: flex;
+}
+@media (max-width: 756px) {
+  #buttonToggle{
+    display: block;
+  }
+  nav ul {
+    display: none; 
+  }
+  nav ul.on {
+    display: block;
+  }
+  .pruebaNav{
+    display: block;
+  }
+}
+@media (min-width: 758px) {
+  #buttonToggle{
+    display: none;
+  }
+
 }

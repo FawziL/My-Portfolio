@@ -1,4 +1,3 @@
-import './ProyectsContainer.css';
 import { useState, useEffect } from 'react';
 import ProyectList from '../ProyectList/ProyectList.js'
 import { getProductos } from '../../stock' 

@@ -5,3 +5,15 @@
     margin: auto;
     width: 1000px;
 }
+@media (max-width: 768px) {
+    .dFlexService{
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        margin: auto;
+        width: auto;
+        font-size: 18px;
+        padding: 10px 30px 10px 30px;
+    }
+}

@@ -5,12 +5,21 @@ import esLight from '../../assets/icons/esLight.png';
 import esDark from '../../assets/icons/esDark.png';
 import enLight from '../../assets/icons/enLight.png';
 import enDark from '../../assets/icons/enDark.png';
+import menuSun from '../../assets/icons/menu-sun.png';
+import menuDark from '../../assets/icons/menu-dark.png';
 import { FormattedMessage} from 'react-intl';
+import { useState } from 'react';
 
 function NavBar({ toggleTheme, darkMode, handleLanguage, locale }) {
+
+  const [toggle, setToggle] = useState("off");
+  function toggleMenu() {
+    setToggle(toggle === 'on' ? 'off' : 'on');
+    console.log(toggle)
+  }
   return (
-    <nav> 
-        <div className='dFlex'>
+    <nav  className='pruebaNav'> 
+      <div className='dFlex'>
           <div className='logo'>
             <p className='Fl'>FL</p>
             <hr/>
@@ -28,13 +37,14 @@ function NavBar({ toggleTheme, darkMode, handleLanguage, locale }) {
                             : enDark
                           : 'icono-otro-idioma'}  alt='language'/>
           </button>
-        </div>
-        <ul>
+          <button id="buttonToggle" className='menu' onClick={toggleMenu}><img src={darkMode ? menuDark : menuSun} alt='menu'/></button>
+      </div>
+      <ul className={toggle}>
             <li><a href="#Services"><FormattedMessage id="services"/></a></li>
             <li><a href="#Skills"><FormattedMessage id="skills"/></a></li>
             <li><a href="#Proyects"><FormattedMessage id="proyects"/></a></li>
             <li><a href="#Contact"><FormattedMessage id="contact"/></a></li>
-        </ul>
+      </ul>
     </nav>
   );
 }
