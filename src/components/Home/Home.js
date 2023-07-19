@@ -8,6 +8,7 @@ function Home() {
     <div className='presentation'>
       <img src={Yo} alt='Foto Fawzi Lutfallah'/>
       <div className='presentationText'> 
+        <h2 className='greet'><FormattedMessage id="greet"/></h2>
         <span>
           <h2><FormattedMessage id="presentation"/></h2>
         </span>

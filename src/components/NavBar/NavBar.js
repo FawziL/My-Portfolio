@@ -15,11 +15,11 @@ function NavBar({ toggleTheme, darkMode, handleLanguage, locale }) {
   const [toggle, setToggle] = useState("off");
   function toggleMenu() {
     setToggle(toggle === 'on' ? 'off' : 'on');
-    console.log(toggle)
   }
+
   return (
     <nav  className='pruebaNav'> 
-      <div className='dFlex'>
+      <div className='dFlexEvenly'>
           <div className='logo'>
             <p className='Fl'>FL</p>
             <hr/>
@@ -37,7 +37,9 @@ function NavBar({ toggleTheme, darkMode, handleLanguage, locale }) {
                             : enDark
                           : 'icono-otro-idioma'}  alt='language'/>
           </button>
-          <button id="buttonToggle" className='menu' onClick={toggleMenu}><img src={darkMode ? menuDark : menuSun} alt='menu'/></button>
+          <button id="buttonToggle" className='menu' onClick={toggleMenu}>
+            <img src={darkMode ? menuDark : menuSun} className={toggle === "on" ? "menuRotated": "menuNoRotated"} alt='menu'/>
+          </button>
       </div>
       <ul className={toggle}>
             <li><a href="#Services"><FormattedMessage id="services"/></a></li>

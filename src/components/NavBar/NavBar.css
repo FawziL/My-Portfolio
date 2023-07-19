@@ -22,6 +22,10 @@ nav{
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.dFlexEvenly{
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
 @keyframes wave {
@@ -69,7 +73,6 @@ nav a:hover{
 .theme, .menu{
   background-color: transparent;
   border: none;
-  margin-left: 18px;
 }
 .theme img, .menu img{
   width: 25px;
@@ -77,10 +80,6 @@ nav a:hover{
 }
 .theme img:hover{
   transform: rotate(66deg);
-  cursor: pointer;
-}
-.menu img:hover{
-  transform: rotate(90deg);
   cursor: pointer;
 }
 .language{
@@ -97,6 +96,13 @@ nav a:hover{
 .pruebaNav{
   display: flex;
 }
+.menuRotated{
+  transform: rotate(90deg);
+} 
+.menuNoRotated{
+  transform: rotate(0deg);
+}
+
 @media (max-width: 756px) {
   #buttonToggle{
     display: block;
@@ -106,9 +112,20 @@ nav a:hover{
   }
   nav ul.on {
     display: block;
+    padding: 0px;
   }
   .pruebaNav{
     display: block;
+  }
+  ul{
+    margin: 0px;
+  }
+  li{
+    padding: 5px;
+    margin-right: 0px;
+  }
+  .logo{
+    margin-left: 0px;
   }
 }
 @media (min-width: 758px) {

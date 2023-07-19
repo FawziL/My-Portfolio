@@ -16,23 +16,23 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-
 @keyframes blink {
     50% { border-color: transparent }
 }
-
 @keyframes typing {
     from { width: 0 }
 }
-
+span{
+    display: flex;
+    justify-content: center;
+}
 span h2 {
     display: block;
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 352px;
-    margin-left: 70px;
-    font-size: 24px;
+    width: 288px;
+    font-size: 26px;
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
 }
@@ -41,17 +41,24 @@ h2{
 }
 .jobTitle{
     color: rgb(83, 42, 123);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.greet{
+    color: rgb(83, 42, 123);
     font-size: 30px;
     font-weight: bold;
+    margin: 0px
 }
 
 @media (max-width: 768px) {
     .presentation{
         display: block;
-        height: 95%;
+        height: 100%;
     }
     .presentation img{
-        width: 70%;
+        width: 45%;
         height: 30%;
     }
     .presentationText{
@@ -59,13 +66,16 @@ h2{
         margin:auto
     }
     span h2 {
-        width: 322px;
-        margin-left: 10px;
-        font-size: 22px;
+        width: 235px;
+        font-size: 21px;
         animation: typing 2s steps(18), blink .5s infinite step-end alternate;
         overflow:hidden;
     }
     .vh {
         min-height: 50vh;
     }
+    #homeVh{
+        height: 100%;
+    }
+      
 }
