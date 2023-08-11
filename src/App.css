@@ -17,3 +17,7 @@
 #homeVh{
   height: 100vh;
 }
+.dFlex{
+  display: flex;
+  justify-content: center;
+}

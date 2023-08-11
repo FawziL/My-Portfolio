@@ -5,13 +5,16 @@ import ProyectsList from '../ProyectsList/ProyectsList.js'
 const ProyectList = ({productos, locale}) =>{
     return(
     <div className='proyectListContainer'>
-        {productos.map(producs => 
-        <div className='proyectListData'>
-            <ProyectsList key={producs.id}{...producs} locale={locale}/>   
-            
-            <ProyectData key={producs.id+1}{...producs} locale={locale}/>
-        </div>
-        )}
+        <div className='listProyects'>
+            {productos.map(producs => 
+                <ProyectsList key={producs.id}{...producs} locale={locale}/>   
+            )}
+        </div>   
+        <div>
+            {productos.map(producs => 
+                <ProyectData key={producs.id+1}{...producs} locale={locale}/>
+            )}
+        </div>   
     </div>)
         
 }

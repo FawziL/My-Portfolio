@@ -1,28 +1,29 @@
 .SocialComponent{
-    width: 300px;
-    margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
 }
 .SocialComponent img{
-    width: 80px;
-    height: 70px;
+    width: 50px;
+    height: 40px;
     margin: 5px;
 }
 .SocialComponent img:hover{
     background-color: rgb(175, 171, 177);
 }
 .SocialComponent p{
-    width: 180px;
     font-size: 16px;
-    padding-top: 15px;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    text-align: start;
 }
 .SocialComponent a{
-    width: 180px;
     font-size: 16px;
-    padding-top: 22px;
-    word-wrap: break-word;
     overflow-wrap: break-word;
+}
+#Contact .text{
+    text-align: start;
+    width: 520px;
+    font-size: 18px;
+    padding: 15px;
 }

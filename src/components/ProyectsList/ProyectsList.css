@@ -1,16 +1,19 @@
 #proyect2, #proyect3, #proyect4{
     display: none;  
     margin: auto;
+    margin-top: 20px;
 }
 #proyect1{
     display: block;
     margin: auto;
+    margin-top: 20px;
 }
 .listProyects{
-    width: 300px;
     font-size: 20px;
     list-style-type: none;
     font-weight: bold;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 .listProyects li{
     margin: 12px;
@@ -19,9 +22,10 @@
     color: white;
 }
 .listProyects li:hover{
-    font-size: 21px;
     cursor: pointer;
+    color: #007bff;
 }
+
 #proyectLi1{
     background-color: rgb(59, 55, 94);
 }

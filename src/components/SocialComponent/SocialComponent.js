@@ -7,15 +7,27 @@ import envelope from '../../assets/icons/envelope.svg';
 
 function SocialComponent() {
   return (
-    <div className='SocialComponent'>
-        <Tecnologies img={github} />
-        <a href='https://github.com/FawziL'>github.com/FawziL</a>       
-        <Tecnologies img={linkedin} />
-        <a href='https://linkedin.com/in/fawzi-lutfallah-62184b236/'>linkedin.com/in/fawzi-lutfallah-62184b236/</a>       
-        <Tecnologies img={address} />
-        <p>+58 4149541095</p>
-        <Tecnologies img={envelope} />
-        <p>fawzi.jlr@gmail.com</p>
+    <div className='dFlex'>      
+      <div>
+        <div className='SocialComponent'> 
+          <Tecnologies img={address} />
+          <p>+58 4149541095</p>
+        </div>  
+        <div className='SocialComponent'> 
+          <Tecnologies img={envelope} />
+          <p>fawzi.jlr@gmail.com</p>
+        </div>
+      </div>
+      <div>
+        <div className='SocialComponent'>
+          <Tecnologies img={github} />
+          <a href='https://github.com/FawziL'>github.com/FawziL</a> 
+        </div>  
+        <div className='SocialComponent'>    
+          <Tecnologies img={linkedin} />
+          <a href='https://linkedin.com/in/fawzi-lutfallah-62184b236/'>fawzi-lutfallah-62184b236</a>   
+        </div> 
+      </div>
     </div>
   );
 }

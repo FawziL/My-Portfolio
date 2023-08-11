@@ -20,15 +20,15 @@ function Skills() {
       <p className='text'><FormattedMessage id="skillPresentation"/></p>
 
       <div className='dFlexSkills'>
-        <TecnologiesLearned name={"Html"} tecnology={html} />
-        <TecnologiesLearned name={"Css"} tecnology={css} />
-        <TecnologiesLearned name={"Javascript"} tecnology={javascript} />
+        <TecnologiesLearned name={"HTML"} tecnology={html} />
+        <TecnologiesLearned name={"CSS"} tecnology={css} />
+        <TecnologiesLearned name={"JavaScript"} tecnology={javascript} />
         <TecnologiesLearned name={"ReactJs"} tecnology={react} />
         <TecnologiesLearned name={"NodeJs"} tecnology={nodejs} />
         <TecnologiesLearned name={"MongoDB"} tecnology={mongodb} />
-        <TecnologiesLearned name={"Bootstrap"} tecnology={bootstrap} />
+        <TecnologiesLearned name={"BootStrap"} tecnology={bootstrap} />
         <TecnologiesLearned name={"TypeScript"} tecnology={typescript} />
-        <TecnologiesLearned name={"Github"} tecnology={github} />
+        <TecnologiesLearned name={"GitHub"} tecnology={github} />
       </div>  
     </div>
 

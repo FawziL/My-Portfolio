@@ -8,13 +8,16 @@ function Contact() {
     <div id='Contact'>
         <h2><FormattedMessage id="contact"/></h2>
 
-        <p className='text'><FormattedMessage id="contactPresentation"/></p>
-
-        <SocialComponent />
-
-        <p className='text'><FormattedMessage id="contactCv"/></p>
-
-        <ButtonDownload />  
+        <div className='dFlex'>
+          <div>
+            <p className='text'><FormattedMessage id="contactPresentation"/></p>
+            <SocialComponent />
+          </div>
+          <div>
+            <p className='text'><FormattedMessage id="contactCv"/></p>
+            <ButtonDownload />  
+          </div>
+        </div>
 
         <Footer /> 
     </div>

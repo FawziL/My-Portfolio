@@ -10,11 +10,10 @@ function ProyectsList({id, title, titulo, locale}) {
       document.getElementById(`proyectLi${id}`).style.backgroundColor = "rgb(59, 55, 94)";
     }
   }
-  
   return (
-    <div className='listProyects'>
-        <li onClick={display} id={`proyectLi${id}`}>{locale === 'en' ? title : titulo}</li>
-    </div>
+    <>
+      <li onClick={display} id={`proyectLi${id}`}>{locale === 'en' ? title : titulo}</li>
+    </>
   );
 }
 

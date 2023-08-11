@@ -20,13 +20,15 @@ function ProyectData({id, proyectThumbnail, text, texto, code, live, tecnologies
                 <img src={proyectThumbnail} alt="Imagen del proyecto: "/>
                 <div>
                     <p className='with200'>{locale === 'en' ? text : texto}</p>
-                    <div className='dFlex'>
+                    <div className='buttonCL'>
                       <a href={code} className='pages' target="_blank" rel="noreferrer">
-                      <FormattedMessage id="code"/>
-                      <img src={github} alt="logo GitHub"/></a>
+                        <FormattedMessage id="code"/>
+                        <img src={github} alt="logo GitHub"/>
+                      </a>
                       <a href={live} className='pages' target="_blank" rel="noreferrer">
-                      <FormattedMessage id="live"/>
-                      <img src={arrow} alt="flecha"/></a>
+                        <FormattedMessage id="live"/>
+                        <img src={arrow} alt="flecha"/>
+                      </a>
                     </div>
                 </div>
             </div>
