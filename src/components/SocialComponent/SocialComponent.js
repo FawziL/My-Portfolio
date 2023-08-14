@@ -7,7 +7,7 @@ import envelope from '../../assets/icons/envelope.svg';
 
 function SocialComponent() {
   return (
-    <div className='dFlex'>      
+    <div className='socialdFlex'>      
       <div>
         <div className='SocialComponent'> 
           <Tecnologies img={address} />

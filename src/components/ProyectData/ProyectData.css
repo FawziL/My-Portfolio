@@ -4,20 +4,20 @@
 }
 img{
     width: 280px;
-    height: 160px;
+    height: 200px;
     border-radius: 2px;
     margin: 10px;
 }
 .buttonCL{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .pages{
     background-color: #005dc1;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 6px;
+    margin: 10px;
     border-radius: 5px;
     width: 100px;
     padding: 1px;
@@ -34,26 +34,31 @@ a img{
 .with200{
     width: 410px;
     font-size: 18px;
-    padding-top: 5px;
+    margin-top: 5px;
     text-align: justify;
 }
-#miDiv2, #miDiv3, #miDiv4{
+#miDiv1, #miDiv2, #miDiv3, #miDiv4{
     display: none;  
 }
 .buttonTecnologies{
     border-radius: 3px;
-    width: 500px;
+    width: 400px;
     border: none;
     background-color: rgb(59, 55, 94);
     color: white;
     padding: 6px;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 16px;
     cursor: pointer;
 }
 .buttonTecnologies:hover{
     background-color: rgb(56, 48, 62);
 }
-
+.eqi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 @media (max-width: 768px) {
     img{
         width: 270px;
@@ -74,5 +79,8 @@ a img{
     }
     .tecnologies{
         margin: 0px 15px 5px 15px;
+    }
+    .buttonCL{
+        justify-content: center;
     }
 }

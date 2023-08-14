@@ -5,7 +5,8 @@ nav{
   width: 90px;
   height: 40px;
   margin: 3px;
-  margin-left: 70px;
+  margin-left: 40px;
+  margin-right: 10px;
   position: relative;
   display: inline-block;
   animation: wave 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;

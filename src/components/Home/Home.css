@@ -7,14 +7,18 @@
 }
 .presentation img{
     width: 40%;
-    height: 91.5%;
-    border-radius: 250px;
+    height: 91%;
+    border-radius: 380px;
 }
 .presentationText{
     padding: 10px;
+    height: 50%;
     width: 70vh;
     margin-top: auto;
     margin-bottom: auto;
+}
+.presentation p{
+    font-size: 18px;
 }
 @keyframes blink {
     50% { border-color: transparent }
@@ -70,9 +74,6 @@ h2{
         font-size: 21px;
         animation: typing 2s steps(18), blink .5s infinite step-end alternate;
         overflow:hidden;
-    }
-    .vh {
-        min-height: 50vh;
     }
     #homeVh{
         height: 100%;

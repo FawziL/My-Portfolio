@@ -7,5 +7,6 @@
 @media (max-width: 768px) {
     .proyectListContainer{
         width: 100%;
+        display: block;
     }
 }

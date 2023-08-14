@@ -18,8 +18,10 @@ function ProyectData({id, proyectThumbnail, text, texto, code, live, tecnologies
     <div id={`proyect${id}`}>
             <div className='section'>
                 <img src={proyectThumbnail} alt="Imagen del proyecto: "/>
-                <div>
-                    <p className='with200'>{locale === 'en' ? text : texto}</p>
+                <div className='eqi'>
+                    <p className='with200'>
+                      {locale === 'en' ? text : texto}
+                    </p>
                     <div className='buttonCL'>
                       <a href={code} className='pages' target="_blank" rel="noreferrer">
                         <FormattedMessage id="code"/>
@@ -30,18 +32,21 @@ function ProyectData({id, proyectThumbnail, text, texto, code, live, tecnologies
                         <img src={arrow} alt="flecha"/>
                       </a>
                     </div>
+                    <div className='products'>
+                      <button onClick={display} className='buttonTecnologies'>
+                        <FormattedMessage id="buttonTecnologies"/>
+                      </button>
+                      <div className='tecnologies' id={`miDiv${id}`}>
+                        {
+                          tecnologies.map((tecnology, index) => (
+                          <Tecnologies img={tecnology} key={`${tecnology.id}-tecnology-${index}`} alt={`Tecnología ${index + 1}`}/>))
+                        }
+                      </div>
+                    </div>
                 </div>
             </div>
             
-            <div className='products'>
-              <button onClick={display} className='buttonTecnologies'><FormattedMessage id="buttonTecnologies"/></button>
-              <div className='tecnologies' id={`miDiv${id}`}>
-                {
-                  tecnologies.map((tecnology, index) => (
-                  <Tecnologies img={tecnology} key={`${tecnology.id}-tecnology-${index}`} alt={`Tecnología ${index + 1}`}/>))
-                }
-              </div>
-            </div>
+
     </div>
     
   );

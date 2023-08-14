@@ -5,8 +5,12 @@
 }
 .SocialComponent img{
     width: 50px;
-    height: 40px;
+    height: 50px;
     margin: 5px;
+}
+.socialdFlex{
+    display: flex;
+    justify-content: center;
 }
 .SocialComponent img:hover{
     background-color: rgb(175, 171, 177);
@@ -22,8 +26,22 @@
     overflow-wrap: break-word;
 }
 #Contact .text{
-    text-align: start;
-    width: 520px;
+    text-align: center;
+    width: 600px;
     font-size: 18px;
     padding: 15px;
+}
+@media (max-width: 768px) {
+    #Contact .text{
+        text-align: center;
+        width: 300px;
+        font-size: 18px;
+        padding: 5px;
+    }
+    .socialdFlex{
+        display: block;
+    }
+    .SocialComponent{
+        margin-left: 50px;
+    }
 }
