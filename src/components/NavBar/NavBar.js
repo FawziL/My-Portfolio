@@ -21,7 +21,7 @@ function NavBar({ toggleTheme, darkMode, handleLanguage, locale }) {
     <nav  className='pruebaNav'> 
       <div className='dFlexEvenly'>
           <div className='logo'>
-            <p className='Fl'>FL</p>
+            <p className='Fl'>Fawzi Lutfallah</p>
             <hr/>
             <p className='webDev'>Web Developer</p>
           </div>

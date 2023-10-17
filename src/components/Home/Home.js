@@ -6,7 +6,9 @@ import { FormattedMessage} from 'react-intl';
 function Home() {
   return (
     <div className='presentation'>
-      <img src={Yo} alt='Foto Fawzi Lutfallah'/>
+      <div className='imgPresentation'>
+        <img src={Yo} alt='Foto Fawzi Lutfallah'/>
+      </div>
       <div className='presentationText'> 
         <h2 className='greet'><FormattedMessage id="greet"/></h2>
         <span>

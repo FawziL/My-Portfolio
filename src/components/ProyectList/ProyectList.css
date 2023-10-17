@@ -1,7 +1,9 @@
 .proyectListContainer{
-    margin: auto;
-    width: 1000px;
-    display: flex;
+    width: 800px;
+    margin-top: 30px;
+    background-color: rgb(29, 30, 30);
+    padding: 10px;
+    border-radius: 15px;
 }
 
 @media (max-width: 768px) {

@@ -7,10 +7,14 @@ import { FormattedMessage} from 'react-intl';
 
 function ProyectData({id, proyectThumbnail, text, texto, code, live, tecnologies, locale}) {
   function display(){
-    if(window.getComputedStyle(document.getElementById(`miDiv${id}`)).display !== "block"){
-      document.getElementById(`miDiv${id}`).style.display = "block";
-    }else{
-      document.getElementById(`miDiv${id}`).style.display = "none";
+    let div = document.getElementById(`miDiv${id}`);
+
+    if (window.getComputedStyle(div).height === "0px") {
+        div.style.height = div.scrollHeight + "px";
+        div.style.opacity = "1";
+    } else {
+        div.style.height = "0";
+        div.style.opacity = "0";
     }
     
   }

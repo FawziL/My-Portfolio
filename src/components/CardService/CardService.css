@@ -22,7 +22,7 @@
     color: white;
 }
 .flip-card-inner {
-    background-color:#2e2447;
+    background-color:rgb(77, 38, 117);
     box-shadow: 3px 3px 5px #646464;
     border-radius: 10px;
     width: 100%;

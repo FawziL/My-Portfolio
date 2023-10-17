@@ -6,4 +6,5 @@
 }
 .tecnology:hover{
     background-color: rgb(175, 171, 177);
+    transition: 1000ms;
 }
