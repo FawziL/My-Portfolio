@@ -75,15 +75,18 @@ h2{
         height: 100%;
     }
     .presentation img{
-        width: 45%;
-        height: 30%;
+        width: 85%;
+    }
+    .imgPresentation{
+        width: 65%;
+        margin: auto;
     }
     .presentationText{
         width: 40vh;
         margin:auto
     }
     span h2 {
-        width: 260px;
+        width: 240px;
         font-size: 21px;
         animation: typing 2s steps(18), blink .5s infinite step-end alternate;
         overflow:hidden;
