@@ -6,7 +6,7 @@
     margin-top: 10px;
 }
 #proyect1{
-    max-height: 500px;
+    max-height: 800px;
     overflow: hidden;
     opacity: 1;
     transition: max-height 0.5s, opacity 0.5s;
@@ -37,10 +37,13 @@
 
 @media (max-width: 768px) {
     .listProyects{
-        width: 320px;
         font-size: 20px;
         list-style-type: none;
         font-weight: bold;
-        margin: auto;
+        margin: 10px;
     }
+    #proyect1, #proyect2, #proyect3, #proyect4{
+        margin-top: 0px;
+    }
+
 }

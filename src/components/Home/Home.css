@@ -74,12 +74,10 @@ h2{
         display: block;
         height: 100%;
     }
-    .presentation img{
-        width: 85%;
-    }
     .imgPresentation{
-        width: 65%;
+        width: 80%;
         margin: auto;
+        margin-top: 10px;
     }
     .presentationText{
         width: 40vh;

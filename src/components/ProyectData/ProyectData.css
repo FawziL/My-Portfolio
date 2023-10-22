@@ -67,24 +67,30 @@ a img{
 }
 @media (max-width: 768px) {
     img{
-        width: 270px;
-        height: 180px;
+        width: 298px;
+        height: 190px;
+        margin: 0px;
+    }
+    .pages{
+        margin: 10px;
     }
     .section{
         display: block;
         margin-top: 15px;
     }
     .with200{
-        width: 300px;
+        width: 90%;
         margin: auto;
         padding: 10px;
     }
     .buttonTecnologies{
-        margin: 15px;
-        width: 300px;
+        width: 225px;
     }
     .tecnologies{
-        margin: 0px 15px 5px 15px;
+        margin: 0px 65px 0px 65px;
+        border-color: rgb(59, 55, 94);
+        border-style: solid;
+        border-radius: 15px;
     }
     .buttonCL{
         justify-content: center;

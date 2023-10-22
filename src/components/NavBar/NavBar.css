@@ -129,6 +129,10 @@ nav a:hover{
   }
   .logo{
     margin-left: 0px;
+    width: 120px;
+  }
+  .Fl{
+    font-size: 18px;
   }
 }
 @media (min-width: 758px) {
