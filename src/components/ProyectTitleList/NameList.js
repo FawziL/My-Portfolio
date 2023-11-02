@@ -11,7 +11,7 @@ function NameList({id, title, titulo, locale}) {
     } else {
         div.style.maxHeight = "0";
         div.style.opacity = "0";
-        li.style.backgroundColor = "rgb(59, 55, 94)";
+        li.style.backgroundColor = "rgb(77, 38, 117)";
     }
   }
   return (

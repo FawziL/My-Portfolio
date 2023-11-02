@@ -1,0 +1,68 @@
+.ContainerTL{
+    margin: 12px;
+    height: 120px;
+    background: linear-gradient(45deg, rgba(46,36,71,1) 15%, rgba(111,35,143,1) 40%, rgba(0,123,255,1) 80%);;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.ContainerTL h3{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.tecnologyL{
+    width: 50px;
+    height: 50px;
+}
+.buttonSkill{
+    width: 35px;
+    font-weight: bold;
+    border: none;
+    height: 100%;
+    padding: 1;
+    background-color: transparent;
+}
+.buttonSkill:hover{
+    background-color: rgba(46,36,71,1);
+    cursor: pointer;
+}
+.buttonSkill img{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
+.widthSkill{
+    width: 130px;
+}
+
+.textSkillInvisible{
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: width 1.5s, opacity 2s;
+    text-align: justify;
+    padding: 5px;
+}
+.textSkillVisible{
+    width: 270px;
+    overflow: hidden;
+    opacity: 1;
+    transition: width 1.5s, opacity 2s;
+}
+#textSkill1, #textSkill5, #textSkill9{
+    width: 270px;
+    opacity: 1;
+    transition: width 1.5s, opacity 2s;
+}
+
+@media (max-width: 768px) {
+    #textSkill1, #textSkill5, #textSkill9{
+        width: 200px;
+    }
+    .textSkillVisible{
+        width: 200px;
+    }
+}

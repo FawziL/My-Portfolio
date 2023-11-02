@@ -1,9 +1,9 @@
 .dFlexSkills{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 800px;
+    width: 940px;
+    justify-content: center;
 }
 #Skills h2{
     margin-top: 30px;

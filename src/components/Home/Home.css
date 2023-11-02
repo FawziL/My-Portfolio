@@ -15,7 +15,7 @@
     background: rgb(90,25,117);
     background: rgb(46,36,71);
     background: linear-gradient(45deg, rgba(46,36,71,1) 15%,
-    rgba(111,35,143,1) 40%, rgba(0,123,255,1) 80%);;
+    rgba(111,35,143,1) 40%, rgba(0,123,255,1) 80%);
     border-radius: 55% 45% 33% 67% / 49% 77% 23% 51% ;
     height: 80%;
     width: 42%;
@@ -56,14 +56,14 @@ h2{
     text-align: center;
 }
 .jobTitle{
-    color: rgb(83, 42, 123);
+    color: rgb(127, 5, 179);
     font-size: 36px;
     font-weight: bold;
     margin-top: 0px;
     font-family: 'Pixelify Sans', sans-serif;
 }
 .greet{
-    color: rgb(83, 42, 123);
+    color: rgb(127, 5, 179);
     font-size: 36px;
     font-weight: bold;
     margin: 0px

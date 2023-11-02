@@ -1,11 +1,11 @@
 import ProyectData from '../ProyectData/ProyectData.js'
 import './ProyectList.css'
-import ProyectsList from '../ProyectsList/NameList.js'
+import ProyectsList from '../ProyectTitleList/NameList.js'
 
-const ProyectList = ({productos, locale}) =>{
+const ProyectList = ({proyects, locale}) =>{
     return(
     <div className='proyectListContainer'>
-            {productos.map(producs => 
+            {proyects.map(producs => 
                 <div className='listProyects'>
                     <ProyectsList key={producs.id}{...producs} locale={locale}/>  
                     <ProyectData key={producs.id+1}{...producs} locale={locale}/>

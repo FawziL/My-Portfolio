@@ -5,11 +5,13 @@ import nodejs from './assets/icons/nodejs.svg';
 import mongodb from './assets/icons/mongodb.svg';
 import bootstrap from './assets/icons/bootstrap.svg';
 import react from './assets/icons/react.svg';
+import typescript from './assets/icons/typescript.svg';
+import github from './assets/icons/github.svg';
 import proyectForbes from './assets/proyects/forbes.png'
 import proyectToolShop from './assets/proyects/toolShop.png'
 import proyectDalacer from './assets/proyects/dalacer.png'
 
-const productos = [
+const proyects = [
     {
         id: '1',
         title: "Proyect Forbes", 
@@ -45,11 +47,75 @@ const productos = [
     },
 ]
 
-export const getProductos = () =>{
+const tecnologies = [
+    {
+      id: 1,
+      name: "HTML",
+      tecnology: html,
+      text: "HTML es el lenguaje de marcado principal para crear páginas web. Lo utilizo para estructurar el contenido de mis proyectos web."
+    },
+    {
+      id: 2,
+      name: "CSS",
+      tecnology: css,
+      text: "CSS se utiliza para dar estilo a las páginas web y mejorar su aspecto visual. Tengo experiencia en la creación de diseños atractivos."
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      tecnology: javascript,
+      text: "JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web para agregar interactividad y dinamismo a las páginas web."
+    },
+    {
+      id: 4,
+      name: "ReactJs",
+      tecnology: react,
+      text: "React.js es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reactivas. Es muy popular en el desarrollo de aplicaciones web."
+    },
+    {
+      id: 5,
+      name: "NodeJs",
+      tecnology: nodejs,
+      text: "Node.js es un entorno de tiempo de ejecución de JavaScript que permite ejecutar código JavaScript en el servidor."
+    },
+    {
+      id: 6,
+      name: "MongoDB",
+      tecnology: mongodb,
+      text: "MongoDB es una base de datos NoSQL que se utiliza ampliamente en el desarrollo web para almacenar datos de manera flexible y escalable."
+    },
+    {
+      id: 7,
+      name: "TypeScript",
+      tecnology: typescript,
+      text: "TypeScript es un superconjunto de JavaScript que agrega tipado estático y otras características."
+    },
+    {
+      id: 8,
+      name: "BootStrap",
+      tecnology: bootstrap,
+      text: "Bootstrap es un marco de diseño (framework) CSS que facilita la creación de sitios web responsivos y con un diseño atractivo."
+    },
+    {
+      id: 9,
+      name: "GitHub",
+      tecnology: github,
+      text: "GitHub es una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones."
+    },
+]
+
+export const getProyects = () =>{
+  return new Promise (resolve =>{
+      setTimeout(()=>{
+          resolve(proyects)
+      },500)
+  })
+}
+
+export const getTecnologies = () =>{
     return new Promise (resolve =>{
         setTimeout(()=>{
-            resolve(productos)
+            resolve(tecnologies)
         },500)
     })
 }
-

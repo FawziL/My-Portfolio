@@ -13,7 +13,7 @@ img{
     justify-content: flex-end;
 }
 .pages{
-    background-color: #005dc1;
+    background-color: #007bff;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,6 +38,7 @@ a img{
     font-size: 18px;
     margin-top: 5px;
     text-align: justify;
+    color: white;
 }
 #miDiv1, #miDiv2, #miDiv3, #miDiv4{
     height: 0;
@@ -49,7 +50,7 @@ a img{
     border-radius: 3px;
     width: 430px;
     border: none;
-    background-color: rgb(59, 55, 94);
+    background-color:rgb(77, 38, 117);
     color: white;
     padding: 6px;
     margin-bottom: 10px;
@@ -67,7 +68,7 @@ a img{
 }
 @media (max-width: 768px) {
     img{
-        width: 298px;
+        width: 260px;
         height: 190px;
         margin: 0px;
     }
@@ -76,18 +77,17 @@ a img{
     }
     .section{
         display: block;
-        margin-top: 15px;
+        margin-top: 10px;
     }
     .with200{
-        width: 90%;
+        width: 92%;
         margin: auto;
-        padding: 10px;
     }
     .buttonTecnologies{
         width: 225px;
     }
     .tecnologies{
-        margin: 0px 65px 0px 65px;
+        margin: 0px 55px 0px 55px;
         border-color: rgb(59, 55, 94);
         border-style: solid;
         border-radius: 15px;
