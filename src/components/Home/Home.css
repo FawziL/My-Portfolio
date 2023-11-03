@@ -51,9 +51,10 @@ span h2 {
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
     margin-bottom: 10px;
+    color: white;
 }
-h2{
-    text-align: center;
+.light-mode span h2{
+    color: black;
 }
 .jobTitle{
     color: rgb(127, 5, 179);

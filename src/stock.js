@@ -52,55 +52,64 @@ const tecnologies = [
       id: 1,
       name: "HTML",
       tecnology: html,
-      text: "HTML es el lenguaje de marcado principal para crear páginas web. Lo utilizo para estructurar el contenido de mis proyectos web."
+      text: "HTML serves as the primary markup language for crafting web pages. I employ it to organize the content in my web projects.",
+      texto: "HTML es el lenguaje de marcado principal para crear páginas web. Lo utilizo para estructurar el contenido de mis proyectos web."
     },
     {
       id: 2,
       name: "CSS",
-      tecnology: css,
-      text: "CSS se utiliza para dar estilo a las páginas web y mejorar su aspecto visual. Tengo experiencia en la creación de diseños atractivos."
+      text: "CSS is utilized to style web pages and enhance their visual appearance. I possess expertise in crafting appealing designs.",
+      texto: "CSS se utiliza para dar estilo a las páginas web y mejorar su aspecto visual. Tengo experiencia en la creación de diseños atractivos.",
+      tecnology: css
     },
     {
       id: 3,
       name: "JavaScript",
-      tecnology: javascript,
-      text: "JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web para agregar interactividad y dinamismo a las páginas web."
+      text: "JavaScript is a widely employed programming language in web development to introduce interactivity and dynamism into web pages.",
+      texto: "JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web para agregar interactividad y dinamismo a las páginas web.",
+      tecnology: javascript
     },
     {
       id: 4,
       name: "ReactJs",
-      tecnology: react,
-      text: "React.js es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reactivas. Es muy popular en el desarrollo de aplicaciones web."
+      text: "React.js is a JavaScript library for building interactive and responsive user interfaces, and it's highly favored in web application development.",
+      texto: "React.js es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reactivas. Es muy popular en el desarrollo de aplicaciones web.",
+      tecnology: react
     },
     {
       id: 5,
       name: "NodeJs",
-      tecnology: nodejs,
-      text: "Node.js es un entorno de tiempo de ejecución de JavaScript que permite ejecutar código JavaScript en el servidor."
+      text: "Node.js is a JavaScript runtime environment that enables the execution of JavaScript code on the server.",
+      texto: "Node.js es un entorno de tiempo de ejecución de JavaScript que permite ejecutar código JavaScript en el servidor.",
+      tecnology: nodejs
     },
     {
       id: 6,
       name: "MongoDB",
-      tecnology: mongodb,
-      text: "MongoDB es una base de datos NoSQL que se utiliza ampliamente en el desarrollo web para almacenar datos de manera flexible y escalable."
+      text: "MongoDB is a widely used NoSQL database that is employed in web development to store data in a flexible and scalable manner.",
+      texto: "MongoDB es una base de datos NoSQL que se utiliza ampliamente en el desarrollo web para almacenar datos de manera flexible y escalable.",
+      tecnology: mongodb
     },
     {
       id: 7,
       name: "TypeScript",
-      tecnology: typescript,
-      text: "TypeScript es un superconjunto de JavaScript que agrega tipado estático y otras características."
+      text: "TypeScript is a superset of JavaScript that adds static typing and other features.",
+      texto: "TypeScript es un superconjunto de JavaScript que agrega tipado estático y otras características.",
+      tecnology: typescript
     },
     {
       id: 8,
       name: "BootStrap",
-      tecnology: bootstrap,
-      text: "Bootstrap es un marco de diseño (framework) CSS que facilita la creación de sitios web responsivos y con un diseño atractivo."
+      text: "Bootstrap is a CSS framework that simplifies the development of responsive websites with an appealing design.",
+      texto: "Bootstrap es un marco de diseño (framework) CSS que facilita la creación de sitios web responsivos y con un diseño atractivo.",
+      tecnology: bootstrap
     },
     {
       id: 9,
       name: "GitHub",
-      tecnology: github,
-      text: "GitHub es una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones."
+      text: "GitHub is a collaborative development platform that leverages Git for version control.",
+      texto: "GitHub es una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones.",
+      tecnology: github
     },
 ]
 

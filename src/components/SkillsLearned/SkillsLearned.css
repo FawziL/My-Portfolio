@@ -22,12 +22,13 @@
     font-weight: bold;
     border: none;
     height: 100%;
-    padding: 1;
+    padding: 0px;
     background-color: transparent;
 }
 .buttonSkill:hover{
     background-color: rgba(46,36,71,1);
     cursor: pointer;
+    transition: 1s;
 }
 .buttonSkill img{
     width: 30px;
@@ -35,7 +36,7 @@
     margin: 0px;
 }
 .widthSkill{
-    width: 130px;
+    width: 120px;
 }
 
 .textSkillInvisible{
@@ -44,18 +45,19 @@
     opacity: 0;
     transition: width 1.5s, opacity 2s;
     text-align: justify;
-    padding: 5px;
 }
 .textSkillVisible{
     width: 270px;
     overflow: hidden;
     opacity: 1;
     transition: width 1.5s, opacity 2s;
+    padding: 5px;
 }
 #textSkill1, #textSkill5, #textSkill9{
     width: 270px;
     opacity: 1;
     transition: width 1.5s, opacity 2s;
+    padding: 5px;
 }
 
 @media (max-width: 768px) {

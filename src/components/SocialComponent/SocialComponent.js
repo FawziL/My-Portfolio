@@ -21,11 +21,11 @@ function SocialComponent() {
       <div>
         <div className='SocialComponent'>
           <Tecnologies img={github} />
-          <a href='https://github.com/FawziL'>github.com/FawziL</a> 
+          <a href='https://github.com/FawziL' target="_blank">github.com/FawziL</a> 
         </div>  
         <div className='SocialComponent'>    
           <Tecnologies img={linkedin} />
-          <a href='https://linkedin.com/in/fawzi-lutfallah-62184b236/'>fawzi-lutfallah-62184b236</a>   
+          <a href='https://linkedin.com/in/fawzi-lutfallah-62184b236/' target="_blank">fawzi-lutfallah-62184b236</a>   
         </div> 
       </div>
     </div>

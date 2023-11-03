@@ -40,7 +40,7 @@ function App() {
         </section>
 
         <section className='vh'>
-          <Skills/>
+          <Skills  locale={locale}/>
         </section>
 
         <section className='vh'>

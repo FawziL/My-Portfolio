@@ -1,7 +1,7 @@
 import './SkillsLearned.css';
 import html from '../../assets/icons/arrow-right.svg';
 
-function SkillsLearned({name, tecnology, text, id}) {
+function SkillsLearned({name, tecnology, text, texto, id, locale}) {
 
   function display(){
     let p = document.getElementById(`textSkill${id}`);
@@ -26,7 +26,7 @@ function SkillsLearned({name, tecnology, text, id}) {
         <img src={tecnology} alt={`Img de alt`} className='tecnologyL'/>
       </div>
       
-      <p id={`textSkill${id}`} className="textSkillInvisible">{text}</p>
+      <p id={`textSkill${id}`} className="textSkillInvisible">{locale === 'en' ? text : texto}</p>
       <button className='buttonSkill' onClick={display}><img src={html}/></button>
     </div>
   );

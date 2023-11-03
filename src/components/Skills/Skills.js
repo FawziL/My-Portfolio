@@ -4,7 +4,7 @@ import { FormattedMessage} from 'react-intl';
 import { useState, useEffect } from 'react';
 import { getTecnologies } from '../../stock' 
 
-function Skills() {
+function Skills({locale}) {
   const [tecnologies, setTecnologies] = useState([])
 
   useEffect(()=>{
@@ -22,7 +22,7 @@ function Skills() {
 
       <div className='dFlexSkills'>
         {tecnologies.map(tecnols => 
-          <SkillsLearned {...tecnols} />
+          <SkillsLearned {...tecnols} locale={locale}/>
         )}
       </div>  
     </div>
