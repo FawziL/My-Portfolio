@@ -80,14 +80,14 @@ a img{
         margin-top: 10px;
     }
     .with200{
-        width: 92%;
+        width: 100%;
         margin: auto;
     }
     .buttonTecnologies{
         width: 225px;
     }
     .tecnologies{
-        margin: 0px 55px 0px 55px;
+        margin: 0px 35px 0px 35px;
         border-color: rgb(59, 55, 94);
         border-style: solid;
         border-radius: 15px;

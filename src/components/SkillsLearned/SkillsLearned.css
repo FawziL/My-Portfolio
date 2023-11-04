@@ -51,15 +51,15 @@
     overflow: hidden;
     opacity: 1;
     transition: width 1.5s, opacity 2s;
-    padding: 5px;
 }
 #textSkill1, #textSkill5, #textSkill9{
     width: 270px;
     opacity: 1;
     transition: width 1.5s, opacity 2s;
-    padding: 5px;
 }
-
+#tecnologyL1, #tecnologyL5, #tecnologyL9{
+    rotate: 180deg;
+}
 @media (max-width: 768px) {
     #textSkill1, #textSkill5, #textSkill9{
         width: 200px;

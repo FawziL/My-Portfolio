@@ -5,7 +5,6 @@
     perspective: 1000px;
     color: white;  
 }
-
 .flip-card p{
     font-size: 18px;
     text-align: left;
@@ -22,7 +21,7 @@
     color: white;
 }
 .flip-card-inner {
-    background-color:rgb(77, 38, 117);
+    background-color:rgb(67, 33, 101);
     box-shadow: 3px 3px 5px #646464;
     border-radius: 10px;
     width: 100%;
