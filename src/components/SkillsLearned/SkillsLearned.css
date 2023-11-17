@@ -2,7 +2,7 @@
     margin: 12px;
     height: 120px;
     background: linear-gradient(45deg, rgba(46,36,71,1) 15%, rgba(111,35,143,1) 40%, rgba(0,123,255,1) 80%);;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,13 +12,14 @@
     margin: 0px;
     font-size: 22px;
     font-weight: bold;
+    pointer-events: none;
 }
 .tecnologyL{
     width: 50px;
     height: 50px;
 }
 .buttonSkill{
-    width: 35px;
+    width: 36px;
     font-weight: bold;
     border: none;
     height: 100%;
@@ -45,12 +46,14 @@
     opacity: 0;
     transition: width 1.5s, opacity 2s;
     text-align: justify;
+    pointer-events: none;
 }
 .textSkillVisible{
     width: 270px;
     overflow: hidden;
     opacity: 1;
     transition: width 1.5s, opacity 2s;
+    pointer-events: none;
 }
 #textSkill1, #textSkill5, #textSkill9{
     width: 270px;

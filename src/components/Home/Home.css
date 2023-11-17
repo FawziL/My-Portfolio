@@ -10,6 +10,7 @@
     width: 70%;
     height: 85%;
     border-radius: 200px;
+    filter: drop-shadow(10px 8px 6px red);
 }
 .imgPresentation{
     background: rgb(90,25,117);
@@ -21,6 +22,7 @@
     width: 42%;
     margin-top: auto;
     margin-bottom: auto;
+    filter: drop-shadow(10px 8px 6px red);
 }
 .presentationText{
     padding: 10px;
@@ -30,6 +32,7 @@
 }
 .presentation p{
     font-size: 18px;
+    pointer-events: none;
 }
 @keyframes blink {
     50% { border-color: transparent }

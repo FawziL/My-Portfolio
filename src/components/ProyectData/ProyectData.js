@@ -23,7 +23,7 @@ function ProyectData({id, proyectThumbnail, text, texto, code, live, tecnologies
             <div className='section'>
                 <img src={proyectThumbnail} alt="Imagen del proyecto: "/>
                 <div className='eqi'>
-                    <p className='with200'>
+                    <p className='dataInformationProyect'>
                       {locale === 'en' ? text : texto}
                     </p>
                     <div className='buttonCL'>

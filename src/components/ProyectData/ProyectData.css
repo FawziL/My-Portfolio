@@ -33,12 +33,13 @@ a img{
     height: 25px;
     margin: 0px;
 }
-.with200{
+.dataInformationProyect{
     width: 430px;
     font-size: 18px;
     margin-top: 5px;
     text-align: justify;
     color: white;
+    pointer-events: none;
 }
 #miDiv1, #miDiv2, #miDiv3, #miDiv4{
     height: 0;

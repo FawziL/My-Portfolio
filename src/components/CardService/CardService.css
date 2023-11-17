@@ -12,6 +12,7 @@
     margin: 10px;
     padding-top: 0px;
     color: white;
+    pointer-events: none;
 }
 .flip-card h3{
     text-align: center;
