@@ -11,9 +11,6 @@ function SkillsLearned({name, tecnology, text, texto, id, locale}) {
         p.style.opacity = "1";
         p.classList.add("textSkillVisible");
         svg.style.rotate = 180 +"deg";
-        if(window.innerWidth < 500){
-          p.style.width = 200 + "px";
-        }
     } else {
         p.style.width = "0";
         p.style.opacity = "0";
@@ -29,7 +26,9 @@ function SkillsLearned({name, tecnology, text, texto, id, locale}) {
       </div>
       
       <p id={`textSkill${id}`} className="textSkillInvisible">{locale === 'en' ? text : texto}</p>
-      <button className='buttonSkill' onClick={display}><img src={html} id={`tecnologyL${id}`}/></button>
+      <button className='buttonSkill' onClick={display}>
+        <img src={html} id={`tecnologyL${id}`} alt={`Imagen de la tecnologia: tecnologyL${id}`}/>
+      </button>
     </div>
   );
 }

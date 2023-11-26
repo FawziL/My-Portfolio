@@ -21,7 +21,7 @@ function ProyectData({id, proyectThumbnail, text, texto, code, live, tecnologies
   return (
     <div id={`proyect${id}`}>
             <div className='section'>
-                <img src={proyectThumbnail} alt="Imagen del proyecto: "/>
+                <img src={proyectThumbnail} alt={`Imagen del proyecto: proyect${id}`} className='proyectImg'/>
                 <div className='eqi'>
                     <p className='dataInformationProyect'>
                       {locale === 'en' ? text : texto}

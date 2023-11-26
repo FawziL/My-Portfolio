@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
 }
-img{
+.proyectImg{
     width: 280px;
     height: 210px;
     border-radius: 2px;
@@ -68,8 +68,8 @@ a img{
     justify-content: space-between;
 }
 @media (max-width: 768px) {
-    img{
-        width: 260px;
+    .proyectImg{
+        width: 96%;
         height: 190px;
         margin: 0px;
     }
@@ -95,5 +95,11 @@ a img{
     }
     .buttonCL{
         justify-content: center;
+    }
+    .eqi{
+        padding: 0px 6px 0px 6px;
+    }
+    .dataInformationProyect{
+        width: 100%;
     }
 }

@@ -70,4 +70,20 @@
     .textSkillVisible{
         width: 200px;
     }
+    #textSkill1, #textSkill4, #textSkill7{
+        width: 200px;
+        opacity: 1;
+        transition: width 1.5s, opacity 2s;
+    }
+    #tecnologyL4, #tecnologyL7{
+        rotate: 180deg;
+    }
+    #tecnologyL5, #tecnologyL9{
+        rotate: 0deg;
+    }
+    #textSkill5, #textSkill9{
+        width: 0;
+        overflow: hidden;
+        opacity: 0;
+    }
 }

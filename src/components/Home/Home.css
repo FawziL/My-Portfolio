@@ -81,7 +81,15 @@ span h2 {
     .imgPresentation{
         width: 80%;
         margin: auto;
-        margin-top: 10px;
+        margin-top: 15px;
+        filter: drop-shadow(6px 6px 3px red);
+    }
+    .presentation img{
+        width: 75%;
+        height: 220px;
+        padding: 10px;
+        border-radius: 200px;
+        filter: drop-shadow(5px 5px 3px red);
     }
     .presentationText{
         width: 40vh;

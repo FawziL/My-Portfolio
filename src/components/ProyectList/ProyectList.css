@@ -8,6 +8,7 @@
 
 @media (max-width: 768px) {
     .proyectListContainer{
-        width: 45vh;
+        width: 330px;
+        margin: auto;
     }
 }
