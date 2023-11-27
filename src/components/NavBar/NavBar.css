@@ -6,7 +6,7 @@ nav{
   height: 40px;
   margin: 3px;
   margin-left: 40px;
-  margin-right: 10px;
+  margin-right: 5px;
   pointer-events: none;
   position: relative;
   display: inline-block;
@@ -75,6 +75,8 @@ nav a:hover{
 .theme, .menu{
   background-color: transparent;
   border: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .theme img, .menu img{
   width: 25px;
@@ -141,7 +143,7 @@ nav a:hover{
   }
   .logo{
     margin-left: 0px;
-    width: 120px;
+    width: 140px;
   }
   .Fl{
     font-size: 18px;

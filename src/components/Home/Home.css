@@ -8,9 +8,8 @@
 }
 .presentation img{
     width: 70%;
-    height: 85%;
+    height: 90%;
     border-radius: 200px;
-    filter: drop-shadow(10px 8px 6px red);
 }
 .imgPresentation{
     background: rgb(90,25,117);
@@ -23,6 +22,9 @@
     margin-top: auto;
     margin-bottom: auto;
     filter: drop-shadow(10px 8px 6px red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .presentationText{
     padding: 10px;
@@ -89,15 +91,15 @@ span h2 {
         height: 220px;
         padding: 10px;
         border-radius: 200px;
-        filter: drop-shadow(5px 5px 3px red);
+
     }
     .presentationText{
         width: 40vh;
         margin:auto
     }
     span h2 {
-        width: 240px;
-        font-size: 21px;
+        width: 255px;
+        font-size: 23px;
         animation: typing 2s steps(18), blink .5s infinite step-end alternate;
         overflow:hidden;
     }

@@ -7,6 +7,7 @@ import bootstrap from './assets/icons/bootstrap.svg';
 import react from './assets/icons/react.svg';
 import typescript from './assets/icons/typescript.svg';
 import github from './assets/icons/github.svg';
+import angular from './assets/icons/angularjs.svg';
 import proyectForbes from './assets/proyects/forbes.png'
 import proyectToolShop from './assets/proyects/toolShop.png'
 import proyectDalacer from './assets/proyects/dalacer.png'
@@ -65,15 +66,15 @@ const tecnologies = [
     {
       id: 3,
       name: "JavaScript",
-      text: "JavaScript is a widely employed programming language in web development to introduce interactivity and dynamism into web pages.",
-      texto: "JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web para agregar interactividad y dinamismo a las páginas web.",
+      text: "JavaScript is a widely employed programming language in web development to introduce interactivity and dynamism.",
+      texto: "JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web para agregar interactividad y dinamismo.",
       tecnology: javascript
     },
     {
       id: 4,
       name: "ReactJs",
-      text: "React.js is a JavaScript library for building interactive and responsive user interfaces, and it's highly favored in web application development.",
-      texto: "React.js es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reactivas. Es muy popular en el desarrollo de aplicaciones web.",
+      text: "React.js is a JavaScript library for building interactive and responsive user interfaces.",
+      texto: "React.js es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reactivas.",
       tecnology: react
     },
     {
@@ -110,6 +111,13 @@ const tecnologies = [
       text: "GitHub is a collaborative development platform that leverages Git for version control.",
       texto: "GitHub es una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones.",
       tecnology: github
+    },
+    {
+      id: 10,
+      name: "AngularJs",
+      text: "AngularJs is a JavaScript library for building interactive user interfaces built on TypeScript.",
+      texto: "AngularJs es una biblioteca de JavaScript para construir interfaces de usuario interactivas construida sobre TypeScrip",
+      tecnology: angular
     },
 ]
 
