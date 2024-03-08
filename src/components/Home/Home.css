@@ -28,13 +28,14 @@
 }
 .presentationText{
     padding: 10px;
-    width: 70vh;
+    width: 40%;
     margin-top: auto;
     margin-bottom: auto;
 }
 .presentation p{
     font-size: 18px;
     pointer-events: none;
+    width: 90%;
 }
 @keyframes blink {
     50% { border-color: transparent }
@@ -45,17 +46,18 @@
 span{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 span h2 {
     display: block;
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 368px;
-    font-size: 34px;
+    width: 394px;
+    font-size: 36px;
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
-    margin-bottom: 10px;
+    margin: 10px;
     color: white;
 }
 .light-mode span h2{
@@ -63,14 +65,15 @@ span h2 {
 }
 .jobTitle{
     color: rgb(127, 5, 179);
-    font-size: 36px;
+    font-size: 38px;
     font-weight: bold;
     margin-top: 0px;
+    margin-bottom: 14px;
     font-family: 'Pixelify Sans', sans-serif;
 }
 .greet{
     color: rgb(127, 5, 179);
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     margin: 0px
 }
@@ -81,7 +84,7 @@ span h2 {
         height: 100%;
     }
     .imgPresentation{
-        width: 80%;
+        width: 74%;
         margin: auto;
         margin-top: 15px;
         filter: drop-shadow(6px 6px 3px red);
@@ -91,17 +94,26 @@ span h2 {
         height: 220px;
         padding: 10px;
         border-radius: 200px;
-
     }
     .presentationText{
-        width: 40vh;
+        width: 86%;
         margin:auto
     }
+    .greet{
+        margin-top: 10px
+    }
+    .presentation p{
+        font-size: 18px;
+        width: 100%;
+    }
     span h2 {
-        width: 255px;
-        font-size: 23px;
+        width: 290px;
+        font-size: 26px;
         animation: typing 2s steps(18), blink .5s infinite step-end alternate;
         overflow:hidden;
+    }
+    .jobTitle{
+        font-size: 34px;
     }
     #homeVh{
         height: 100%;

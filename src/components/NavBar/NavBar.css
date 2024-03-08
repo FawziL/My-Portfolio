@@ -60,14 +60,16 @@ nav a:hover{
 }
 .dark-mode {
   background-color: #131212;
+  transition: background-color 0.4s, color 0.4s;
   color: #ffffff;
 }
 .dark-mode a{
   color: #ffffff;
 }
 .light-mode {
-  background-color: #f1ebeb;
+  background-color: rgba(255, 255, 255, 0.952);
   color: #000000;
+  transition: background-color 0.4s, color 0.4s;
 }
 .light-mode a{
   color: #000000;

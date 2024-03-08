@@ -1,17 +1,16 @@
 import './App.css';
 import { useState } from 'react';
-import NavBar from './components/NavBar/NavBar.js'
-import Home from './components/Home/Home.js'
-import Services from './components/Services/Services.js'
-import Skills from './components/Skills/Skills.js'
-import ProyectsContainer from './components/ProyectsContainer/ProyectsContainer.js'
-import Contact from './components/Contact/Contact.js'
-
 import {IntlProvider} from 'react-intl';
+
+import NavBar from './components/NavBar/NavBar.jsx'
+import Home from './components/Home/Home.jsx'
+import Services from './components/Services/Services.jsx'
+import Skills from './components/Skills/Skills.jsx'
+import ProyectsContainer from './components/ProyectsContainer/ProyectsContainer.jsx'
+import Contact from './components/Contact/Contact.jsx'
 
 import enMessages from './en.json';
 import esMessages from './es.json';
-
 
 function App() {
   const [darkMode, setTheme] = useState(true);

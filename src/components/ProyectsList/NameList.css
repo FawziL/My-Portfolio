@@ -1,0 +1,49 @@
+#proyect2, #proyect3, #proyect4{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s, opacity 0.5s;
+    margin-top: 10px;
+}
+#proyect1{
+    max-height: 800px;
+    overflow: hidden;
+    opacity: 1;
+    transition: max-height 0.5s, opacity 0.5s;
+    margin-top: 10px;
+}
+.listProyects{
+    font-size: 20px;
+    list-style-type: none;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.listProyects li{
+    padding: 10px;
+    background-color: rgb(59, 55, 94);
+    border-radius: 15px;    
+    font-weight: bold;
+}
+.dark-mode .listProyects li{
+    color: white;
+}
+.listProyects li:hover{
+    cursor: pointer;
+    color: #007bff;
+}
+#proyectLi1{
+    background-color: rgb(56, 48, 62);
+}
+
+@media (max-width: 768px) {
+    .listProyects{
+        font-size: 20px;
+        list-style-type: none;
+        font-weight: bold;
+        margin: 10px;
+    }
+    #proyect1, #proyect2, #proyect3, #proyect4{
+        margin-top: 0px;
+    }
+
+}
