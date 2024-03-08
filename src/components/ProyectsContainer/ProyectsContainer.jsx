@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import ProyectList from '../ProyectList/ProyectList.jsx'
-import { getProyects } from '../../stock.js' 
+import { getProyects } from '../../info.js' 
 import { FormattedMessage} from 'react-intl';
 
 function Proyects({locale}) {

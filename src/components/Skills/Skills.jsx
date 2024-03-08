@@ -2,7 +2,7 @@ import './Skills.css';
 import SkillsLearned from '../SkillsLearned/SkillsLearned.jsx'
 import { FormattedMessage} from 'react-intl';
 import { useState, useEffect } from 'react';
-import { getTecnologies } from '../../stock.js' 
+import { getTecnologies } from '../../info.js' 
 
 function Skills({locale}) {
   const [tecnologies, setTecnologies] = useState([])
