@@ -3,7 +3,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 1000px;
+    width: 900px;
 }
 @media (max-width: 768px) {
     .dFlexService{

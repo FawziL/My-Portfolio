@@ -1,6 +1,6 @@
 .ContainerTL{
     margin: 12px;
-    height: 130px;
+    height: 140px;
     background: linear-gradient(45deg, rgba(46,36,71,1) 15%, rgba(111,35,143,1) 40%, rgba(0,123,255,1) 80%);;
     border-radius: 10px;
     display: flex;
@@ -55,6 +55,9 @@
     opacity: 1;
     transition: width 1.5s, opacity 2s;
     pointer-events: none;
+}
+.textSkillInvisible, .textSkillVisible{
+    color: white;
 }
 .textSkill1, .textSkill5, .textSkill9, .textSkill10{
     width: 270px;

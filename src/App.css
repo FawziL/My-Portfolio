@@ -17,6 +17,9 @@
   min-height: 50vh;
   width: 100%;
 }
+.vh h2{
+  margin-bottom: 0px;
+}
 #homeVh{
   height: 100vh;
 }

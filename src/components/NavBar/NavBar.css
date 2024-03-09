@@ -1,5 +1,7 @@
 nav{
   display: flex;
+  background-color: #131212;
+
 }
 .logo{
   width: 150px;
@@ -55,11 +57,25 @@ nav li{
   font-size: 16px;
   letter-spacing: 1px;
 }
-nav a:hover{
-  color:rgb(69, 45, 88);
+nav a{
+  padding: 2px;
 }
+nav a:hover{
+  background-color: rgba(0,123,255,1);
+  animation: loading 1s;
+  border-radius: 2px;
+}
+@keyframes loading {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .dark-mode {
-  background-color: #131212;
+  background-color:  #1e1f20;
   transition: background-color 0.4s, color 0.4s;
   color: #ffffff;
 }
@@ -71,8 +87,8 @@ nav a:hover{
   color: #000000;
   transition: background-color 0.4s, color 0.4s;
 }
-.light-mode a{
-  color: #000000;
+.light-mode a, .Fl, .webDev{
+  color: #ffffff;
 }
 .theme, .menu{
   background-color: transparent;
@@ -80,15 +96,22 @@ nav a:hover{
   margin-left: 10px;
   margin-right: 10px;
 }
-.theme img, .menu img{
+.theme img{
   width: 25px;
   height: 25px;
   transition: 200ms;
+  padding: 4px;
+  border-radius: 50%;
+}
+.menu img{
+  width: 25px;
+  height: 25px;
 }
 .theme img:hover{
   transform: rotate(66deg);
   cursor: pointer;
   transition: 200ms;
+  background-color: rgba(0,123,255,1);
 }
 .language{
   background-color: transparent;
@@ -97,10 +120,14 @@ nav a:hover{
 .language img{
   width: 28px;
   height: 28px;
+  padding: 4px;
+  border-radius: 30%;
 }
 .language img:hover{
   cursor: pointer;
-  transform: rotate(18deg);
+  transform: rotate(30deg);
+  transition: 200ms;
+  background-color: rgba(0,123,255,1);
 }
 .pruebaNav{
   display: flex;
@@ -149,6 +176,23 @@ nav a:hover{
   }
   .Fl{
     font-size: 18px;
+  }
+  nav a{
+    padding: 2px;
+    border-radius: 2px;
+  }
+  nav a:hover{
+    background-color: rgba(0,123,255,1);
+    animation: loading 1s;
+
+  }
+  @keyframes loading {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 100%;
+    }
   }
 }
 @media (min-width: 758px) {

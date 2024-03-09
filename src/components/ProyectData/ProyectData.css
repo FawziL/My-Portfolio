@@ -1,6 +1,7 @@
 .section{
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .proyectImg{
     width: 280px;
@@ -69,7 +70,7 @@ a img{
 }
 @media (max-width: 768px) {
     .proyectImg{
-        width: 96%;
+        width: 90%;
         height: 190px;
         margin: 0px;
     }
@@ -97,7 +98,7 @@ a img{
         justify-content: center;
     }
     .eqi{
-        padding: 0px 6px 0px 6px;
+        padding: 0px 16px 0px 16px;
     }
     .dataInformationProyect{
         width: 100%;

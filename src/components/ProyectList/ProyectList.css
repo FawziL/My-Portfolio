@@ -1,14 +1,15 @@
 .proyectListContainer{
     width: 800px;
-    margin-top: 30px;
-    background-color: rgb(29, 30, 30);
-    padding: 10px;
-    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 16px;
 }
 
 @media (max-width: 768px) {
     .proyectListContainer{
         width: 330px;
         margin: auto;
+        margin-top: 10px;
     }
 }

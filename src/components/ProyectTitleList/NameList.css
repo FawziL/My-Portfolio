@@ -16,7 +16,9 @@
     font-size: 20px;
     list-style-type: none;
     margin: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    background-color:  #1e1f20;
+    border-radius: 15px;
 }
 .listProyects li{
     padding: 10px;
@@ -43,7 +45,7 @@
         margin: 10px;
     }
     #proyect1, #proyect2, #proyect3, #proyect4{
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
 }

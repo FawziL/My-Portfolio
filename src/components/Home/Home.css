@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-top: 40px;
 }
 .presentation img{
     width: 70%;
@@ -35,7 +36,7 @@
 .presentation p{
     font-size: 18px;
     pointer-events: none;
-    width: 90%;
+    width: 80%;
 }
 @keyframes blink {
     50% { border-color: transparent }
