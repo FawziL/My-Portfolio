@@ -16,7 +16,7 @@ function NameList({id, title, titulo, locale}) {
   }
   return (
     <>
-      <li onClick={display} id={`proyectLi${id}`}>{locale === 'en' ? title : titulo}</li>
+      <li onClick={display} id={`proyectLi${id}`}>{title}</li>
     </>
   );
 }

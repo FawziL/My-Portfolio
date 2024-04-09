@@ -22,7 +22,7 @@
     width: 42%;
     margin-top: auto;
     margin-bottom: auto;
-    filter: drop-shadow(10px 8px 6px red);
+    filter: drop-shadow(10px 8px 6px rgb(9, 9, 9));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,6 +83,7 @@ span h2 {
     .presentation{
         display: block;
         height: 100%;
+        padding-top: 30px;
     }
     .imgPresentation{
         width: 74%;
