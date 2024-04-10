@@ -25,13 +25,16 @@ function App() {
   }
 
   return (
-
       <div className={darkMode ? 'dark-mode' : 'light-mode'}>
         <IntlProvider locale={locale} messages={locale === 'en' ? enMessages : esMessages}>
         
         <section id='homeVh'>
           <NavBar toggleTheme={toggleTheme} darkMode={darkMode} handleLanguage={handleLanguage} locale={locale}/>
           <Home />
+        </section>
+
+        <section className='vh'>
+          <ProyectsContainer locale={locale}/>
         </section>
         
         <section className='vh'>
@@ -43,13 +46,10 @@ function App() {
         </section>
 
         <section className='vh'>
-          <ProyectsContainer locale={locale}/>
-        </section>
-
-        <section className='vh'>
           <Contact/>
         </section>
-          </IntlProvider>
+
+        </IntlProvider>
       </div>
   );
 }

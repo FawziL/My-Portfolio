@@ -9,7 +9,8 @@ function ButtonDownload() {
 
   return (
     <button onClick={ButtonDownload} className='ButtonDownload'>
-      <FormattedMessage id="buttonDownload"/></button>
+      <FormattedMessage id="buttonDownload"/>
+    </button>
   );
 }
 

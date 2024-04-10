@@ -19,10 +19,10 @@ const proyects = [
     id: '1',
     title: "U.I.C", 
     proyectThumbnail: proyectUIC, 
-    text: "Sophisticated web application designed to facilitate efficient house management for the company's personnel, enabling seamless storage and publication of properties available for sale.", 
-    texto: "Aplicación web sofisticada diseñada para facilitar la gestión eficiente de propiedades residenciales para el personal de la empresa, permitiendo el almacenamiento y publicación fluida de propiedades disponibles para la venta.", 
+    text: "Tailored e-commerce platform that adapts to the unique needs of the company, allowing it to offer an impeccable online shopping experience and strengthen its corporate image.", 
+    texto: "Plataforma de comercio electrónico personalizada que se adapta a las necesidades únicas de la empresa, permitiéndole ofrecer una experiencia de compra online impecable y fortalecer tu imagen corporativa.", 
     code: "https://github.com/FawziL/TEG", 
-    live: "https://forbes-djnp.onrender.com",
+    live: "https://teg.onrender.com",
     tecnologies: [html, css, javascript, nodejs, postgresql]
   },
   {
@@ -50,7 +50,7 @@ const proyects = [
     title: "Dalacer", 
     proyectThumbnail: proyectDalacer, 
     text: "Website allowing users to thoroughly explore a range of vehicles alongside their respective prices. It offers an interactive experience featuring high-quality images, technical specifications, and comparisons to aid visitors in finding their ideal car.",
-    texto: "Sitio web creado para que los usuarios puedan explorar detalladamente una variedad de vehículos junto con sus respectivos precios. Ofrece una experiencia interactiva con imágenes de alta calidad y especificaciones técnicas para ayudar a los visitantes a encontrar su automóvil ideal.",  
+    texto: "Sitio web creado que permite a los usuarios explorar una variedad de vehículos junto con sus respectivos precios. Ofrece una experiencia interactiva con imágenes de alta calidad y especificaciones técnicas para ayudar a los visitantes a encontrar su automóvil ideal.",  
     code: "https://github.com/FawziL/Proyecto-Dalacer", 
     live: "https://proyecto-dalacer.onrender.com",
     tecnologies: [html, css, javascript, bootstrap],
@@ -141,7 +141,7 @@ export const getProyects = () =>{
   return new Promise (resolve =>{
       setTimeout(()=>{
           resolve(proyects)
-      },500)
+      },250)
   })
 }
 

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer> 
         <hr/>
-        <p>© 2023 [Fawzi Lutfallah] - <FormattedMessage id="rights"/></p>
+        <p>© 2023-2024 [Fawzi Lutfallah] - <FormattedMessage id="rights"/></p>
     </footer>
   );
 }

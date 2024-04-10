@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import ProyectList from '../ProyectList/ProyectList.jsx'
+import ProyectData from '../ProyectData/ProyectData.jsx'
 import { getProyects } from '../../info.js' 
 import { FormattedMessage} from 'react-intl';
+import './ProyectsContainer.css';
 
 function Proyects({locale}) {
   const [proyects, setProyects] = useState([])
@@ -17,7 +18,12 @@ function Proyects({locale}) {
   return (
     <div id='Proyects'>
         <h2><FormattedMessage id="proyects"/></h2>
-        <ProyectList  proyects={proyects} locale={locale}/>  
+        <p className='text'><FormattedMessage id='proyectPresentation'/></p>
+        <div className='proyectsContainer'>
+            {proyects.map(producs => 
+              <ProyectData key={producs.id+1}{...producs} locale={locale}/>
+            )}
+        </div> 
     </div>
   );
 }

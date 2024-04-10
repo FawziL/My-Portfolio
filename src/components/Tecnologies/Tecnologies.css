@@ -3,8 +3,9 @@
     height: 40px;
     padding: 2px;
     margin: 5px;
+    border-radius: 8px;
 }
 .tecnology:hover{
-    background-color: rgb(175, 171, 177);
-    transition: 1000ms;
+    background-color: #007bff;
+    transition: 500ms;
 }

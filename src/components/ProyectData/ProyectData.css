@@ -1,33 +1,39 @@
-.section{
+.proyect{
+    padding: 10px;
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+.proyect h3{
+    margin: 0px;
+    font-size: 18px;    
 }
 .proyectImg{
-    width: 280px;
+    width: 300px;
     height: 210px;
     border-radius: 2px;
     margin: 10px;
 }
 .buttonCL{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
 }
 .pages{
-    background-color: #007bff;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px;
+    margin: 0px;
+    margin-left: 10px;
     margin-right: 0px;
-    border-radius: 5px;
-    width: 100px;
-    padding: 1px;
+    border-radius: 8px;
+    padding: 4px;
     color: white;
 }
 .pages:hover{
-    background-color: #133962;
-    transition: 1000ms;
+    background-color: #007bff;
+    transition: 500ms;
 }
 a img{
     width: 25px;
@@ -35,12 +41,15 @@ a img{
     margin: 0px;
 }
 .dataInformationProyect{
-    width: 430px;
+    width: 300px;
     font-size: 18px;
     margin-top: 5px;
     text-align: justify;
     color: white;
     pointer-events: none;
+}
+.light-mode .dataInformationProyect{
+    color: black;
 }
 #miDiv1, #miDiv2, #miDiv3, #miDiv4{
     height: 0;
@@ -50,12 +59,13 @@ a img{
 }
 .buttonTecnologies{
     border-radius: 3px;
-    width: 430px;
+    width: 300px;
     border: none;
     background-color:rgb(77, 38, 117);
     color: white;
     padding: 6px;
-    margin-bottom: 10px;
+    margin: 0px;
+    margin-top: 10px;
     font-size: 16px;
     cursor: pointer;
 }
@@ -63,15 +73,8 @@ a img{
     background-color: rgb(56, 48, 62);
     transition: 1000ms;
 }
-.eqi{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 @media (max-width: 768px) {
     .proyectImg{
-        width: 90%;
-        height: 190px;
         margin: 0px;
     }
     .pages{
@@ -85,22 +88,14 @@ a img{
         width: 100%;
         margin: auto;
     }
-    .buttonTecnologies{
-        width: 225px;
-    }
     .tecnologies{
-        margin: 0px 35px 0px 35px;
+        margin: 10px 35px 0px 35px;
         border-color: rgb(59, 55, 94);
         border-style: solid;
         border-radius: 15px;
     }
-    .buttonCL{
-        justify-content: center;
-    }
-    .eqi{
-        padding: 0px 16px 0px 16px;
-    }
     .dataInformationProyect{
         width: 100%;
+        margin-top: 0px;
     }
 }

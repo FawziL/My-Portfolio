@@ -1,0 +1,16 @@
+.proyectsContainer{
+    width: 660px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .proyectsContainer{
+        width: 100%;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+}
