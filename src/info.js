@@ -22,7 +22,7 @@ const proyects = [
     text: "Tailored e-commerce platform that adapts to the unique needs of the company, allowing it to offer an impeccable online shopping experience and strengthen its corporate image.", 
     texto: "Plataforma de comercio electrónico personalizada que se adapta a las necesidades únicas de la empresa, permitiéndole ofrecer una experiencia de compra online impecable y fortalecer tu imagen corporativa.", 
     code: "https://github.com/FawziL/TEG", 
-    live: "https://teg.onrender.com",
+    live: "https://deploy-7jsa.onrender.com",
     tecnologies: [html, css, javascript, nodejs, postgresql]
   },
   {
