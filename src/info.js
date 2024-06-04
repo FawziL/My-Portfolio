@@ -9,14 +9,27 @@ import typescript from './assets/icons/typescript.svg';
 import github from './assets/icons/github.svg';
 import angular from './assets/icons/angularjs.svg';
 import postgresql from './assets/icons/postgresql.svg';
+import tailwind from './assets/icons/tailwind.svg';
+
 import proyectUIC from './assets/proyects/UIC.png'
 import proyectForbes from './assets/proyects/forbes.png'
 import proyectToolShop from './assets/proyects/toolShop.png'
 import proyectDalacer from './assets/proyects/dalacer.png'
+import proyectChat from './assets/proyects/chat.png'
 
 const proyects = [
   {
-    id: '1',
+    id: '5',
+    title: "Chat", 
+    proyectThumbnail: proyectChat, 
+    text: "Real-time interactive chat platform with private rooms for each registered user. This is a personal project to sharpen my full-stack development skills by utilizing technologies I haven't yet mastered.", 
+    texto: "Plataforma de chat interactivo en tiempo real con salas privadas para cada usuario registrado. Este es un proyecto personal para afinar mis habilidades como desarrollaor fullstack y hacer uso de tecnologías que no dominaba.", 
+    code: "https://github.com/FawziL/Proyecto-Chat", 
+    live: "https://chat-kxsz.onrender.com",
+    tecnologies: [react, nodejs, mongodb, tailwind]
+  },
+  {
+    id: '4',
     title: "U.I.C", 
     proyectThumbnail: proyectUIC, 
     text: "Tailored e-commerce platform that adapts to the unique needs of the company, allowing it to offer an impeccable online shopping experience and strengthen its corporate image.", 
@@ -26,7 +39,7 @@ const proyects = [
     tecnologies: [html, css, javascript, nodejs, postgresql]
   },
   {
-    id: '2',
+    id: '3',
     title: "Forbes",  
     proyectThumbnail: proyectForbes, 
     text: "Sophisticated web application designed to facilitate efficient house management for the company's personnel, enabling seamless storage and publication of properties available for sale.", 
@@ -36,27 +49,27 @@ const proyects = [
     tecnologies: [html, css, javascript, nodejs, mongodb, bootstrap]
   },
   {
-    id: '3',
-    title: "AirT-ToolShop", 
-    proyectThumbnail: proyectToolShop, 
-    text: "All-encompassing platform designed to meet the diverse needs of a dynamic construction supplies and tools company. It offers a wide range of functionalities and services to facilitate a smooth and efficient online shopping experience.",
-    texto: "Plataforma integral diseñada para satisfacer las diversas necesidades de una empresa dinámica de suministros y herramientas para la construcción. Ofrece una amplia gama de funcionalidades y servicios para facilitar una experiencia de compra en línea fluida y eficiente.", 
-    code: "https://github.com/FawziL/Proyecto-ToolShop", 
-    live: "https://airt-toolshop.onrender.com",
-    tecnologies: [html, css, javascript, react, bootstrap],
-  },
-  {
-    id: '4',
+    id: '1',
     title: "Dalacer", 
     proyectThumbnail: proyectDalacer, 
-    text: "Website allowing users to thoroughly explore a range of vehicles alongside their respective prices. It offers an interactive experience featuring high-quality images, technical specifications, and comparisons to aid visitors in finding their ideal car.",
-    texto: "Sitio web creado que permite a los usuarios explorar una variedad de vehículos junto con sus respectivos precios. Ofrece una experiencia interactiva con imágenes de alta calidad y especificaciones técnicas para ayudar a los visitantes a encontrar su automóvil ideal.",  
+    text: "Website allowing users to thoroughly explore a range of vehicles. It offers an interactive experience featuring high-quality images, technical specifications, and comparisons to aid visitors in finding their ideal car.",
+    texto: "Aplicación web creado que permite a los usuarios explorar una variedad de vehículos. Ofrece una experiencia interactiva con imágenes de alta calidad y especificaciones técnicas para ayudar a los visitantes a encontrar su automóvil ideal.",  
     code: "https://github.com/FawziL/Proyecto-Dalacer", 
     live: "https://proyecto-dalacer.onrender.com",
     tecnologies: [html, css, javascript, bootstrap],
   },
 ]
-
+/* {
+    id: '2',
+    title: "AirT-ToolShop", 
+    proyectThumbnail: proyectToolShop, 
+    text: " Platform designed to cater specifically to the requirements of construction companies in the realm of construction supplies and tools. Provides a convenient online shopping experience.",
+    texto: "Plataforma diseñada para satisfacer las necesidades de una empresa de suministros y herramientas para la construcción. Ofrece una amplia gama de funcionalidades y servicios para facilitar una experiencia de compra en línea fluida.", 
+    code: "https://github.com/FawziL/Proyecto-ToolShop", 
+    live: "https://airt-toolshop.onrender.com",
+    tecnologies: [html, css, javascript, react, bootstrap],
+  },
+*/
 const tecnologies = [
   {
     id: 1,
@@ -134,6 +147,13 @@ const tecnologies = [
     text: "PostgreSQL is an open source relational database management system (RDBMS).",
     texto: "PostgreSQL es un sistema de gestión de bases de datos relacional (SGBDR) de código abierto.",
     tecnology: postgresql
+  },
+  {
+    id: 12,
+    name: "Tailwind",
+    text: "Tailwind CSS is an open-source CSS framework for rapid UI development.",
+    texto: "Tailwind CSS es un framework de CSS de código abierto​ para el diseño de páginas web.",
+    tecnology: tailwind
   },
 ]
 
