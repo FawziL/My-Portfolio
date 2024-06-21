@@ -1,13 +1,13 @@
 import './Home.css';
 import ButtonDownload from '../ButtonDownload/ButtonDownload';
 import { FormattedMessage} from 'react-intl';
-import Yo from '../../assets/descarga3.png'
+import Yo from '../../assets/fotoHome.png'
 
 function Home() {
   return (
     <div className='presentation'>
       <div className='imgPresentation'>
-      <img src={Yo} alt='Foto Fawzi Lutfallah'/>
+        <img src={Yo} alt='Foto Fawzi Lutfallah'/>
       </div>
       <div className='presentationText'> 
         <h2 className='greet'><FormattedMessage id="greet"/></h2>

@@ -29,16 +29,6 @@ const proyects = [
     tecnologies: [react, nodejs, mongodb, tailwind]
   },
   {
-    id: '4',
-    title: "U.I.C", 
-    proyectThumbnail: proyectUIC, 
-    text: "Tailored e-commerce platform that adapts to the unique needs of the company, allowing it to offer an impeccable online shopping experience and strengthen its corporate image.", 
-    texto: "Plataforma de comercio electrónico personalizada que se adapta a las necesidades únicas de la empresa, permitiéndole ofrecer una experiencia de compra online impecable y fortalecer tu imagen corporativa.", 
-    code: "https://github.com/FawziL/TEG", 
-    live: "https://deploy-7jsa.onrender.com",
-    tecnologies: [html, css, javascript, nodejs, postgresql]
-  },
-  {
     id: '3',
     title: "Forbes",  
     proyectThumbnail: proyectForbes, 
@@ -47,6 +37,16 @@ const proyects = [
     code: "https://github.com/FawziL/Proyecto-Forbes", 
     live: "https://forbes-djnp.onrender.com",
     tecnologies: [html, css, javascript, nodejs, mongodb, bootstrap]
+  },
+  {
+    id: '4',
+    title: "U.I.C", 
+    proyectThumbnail: proyectUIC, 
+    text: "Tailored e-commerce platform that adapts to the unique needs of the company, allowing it to offer an impeccable online shopping experience and strengthen its corporate image.", 
+    texto: "Plataforma de comercio electrónico personalizada que se adapta a las necesidades únicas de la empresa, permitiéndole ofrecer una experiencia de compra online impecable y fortalecer tu imagen corporativa.", 
+    code: "https://github.com/FawziL/TEG", 
+    live: "https://deploy-7jsa.onrender.com",
+    tecnologies: [html, css, javascript, nodejs, postgresql]
   },
   {
     id: '1',
