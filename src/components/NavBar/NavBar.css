@@ -1,6 +1,7 @@
 nav{
   display: flex;
-  background-color: #131212;
+  background-color: rgba(15, 14, 14, 0.919);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   position:fixed;
   top: 0;
   z-index:1;
@@ -153,7 +154,7 @@ nav a:hover{
     height: 0px;
     opacity: 0;
     display: block;
-    transition: 500ms;
+    transition: 400ms;
     padding: 0px;
   }
   .off li{

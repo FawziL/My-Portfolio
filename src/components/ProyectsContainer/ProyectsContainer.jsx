@@ -19,7 +19,7 @@ function Proyects({locale}) {
     <div id='Proyects'>
         <h2><FormattedMessage id="proyects"/></h2>
         <p className='text'><FormattedMessage id='proyectPresentation'/></p>
-        <p><FormattedMessage id="note"/></p>
+        <p className='text'><FormattedMessage id="note"/></p>
         <div className='proyectsContainer'>
             {proyects.map(producs => 
               <ProyectData key={producs.id+1}{...producs} locale={locale}/>
