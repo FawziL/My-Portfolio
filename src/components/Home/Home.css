@@ -85,13 +85,13 @@ span h2 {
     .presentation{
         display: block;
         height: 100%;
-        padding-top: 30px;
+        padding-top: 70px;
     }
     .imgPresentation{
         width: 74%;
         margin: auto;
         margin-top: 15px;
-        filter: drop-shadow(6px 6px 3px red);
+        filter: drop-shadow(6px 6px 3px rgb(0, 0, 0));
     }
     .presentation img{
         width: 78%;
