@@ -16,8 +16,19 @@ import proyectForbes from './assets/proyects/forbes.png'
 import proyectToolShop from './assets/proyects/toolShop.png'
 import proyectDalacer from './assets/proyects/dalacer.png'
 import proyectChat from './assets/proyects/chat.png'
+import proyectBiblioteca from './assets/proyects/biblioteca.png'
 
 const proyects = [
+  {
+    id: '6',
+    title: "Biblioteca", 
+    proyectThumbnail: proyectBiblioteca, 
+    text: "Fullstack application that allows users to search, view, and manage books online, with JWT authentication and a React frontend. It includes features like favorites, category filtering, and password recovery.", 
+    texto: "Alicación fullstack que permite a los usuarios buscar, visualizar y gestionar libros en línea, con autenticación mediante JWT y un frontend en React. Incluye funcionalidades como favoritos, filtrado por categorías, y recuperación de contraseñas.", 
+    code: "https://github.com/FawziL/Biblioteca-Virtual", 
+    live: "https://biblioteca-virtual.onrender.com",
+    tecnologies: [react, nodejs, postgresql]
+  },
   {
     id: '5',
     title: "Chat", 
@@ -29,7 +40,7 @@ const proyects = [
     tecnologies: [react, nodejs, mongodb, tailwind]
   },
   {
-    id: '3',
+    id: '4',
     title: "Forbes",  
     proyectThumbnail: proyectForbes, 
     text: "Sophisticated web application designed to facilitate efficient house management for the company's personnel, enabling seamless storage and publication of properties available for sale.", 
@@ -39,7 +50,7 @@ const proyects = [
     tecnologies: [html, css, javascript, nodejs, mongodb, bootstrap]
   },
   {
-    id: '4',
+    id: '3',
     title: "U.I.C", 
     proyectThumbnail: proyectUIC, 
     text: "Tailored e-commerce platform that adapts to the unique needs of the company, allowing it to offer an impeccable online shopping experience and strengthen its corporate image.", 

@@ -51,7 +51,7 @@ a img{
 .light-mode .dataInformationProyect{
     color: black;
 }
-#miDiv1, #miDiv2, #miDiv3, #miDiv4, #miDiv5{
+#miDiv1, #miDiv2, #miDiv3, #miDiv4, #miDiv5, #miDiv6{
     height: 0;
     overflow: hidden;
     opacity: 0;
