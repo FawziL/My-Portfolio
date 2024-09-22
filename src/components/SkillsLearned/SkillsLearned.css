@@ -1,63 +1,33 @@
 .ContainerTL {
     margin: 12px;
-    height: 140px;
-    background: linear-gradient(45deg, rgba(46,36,71,1) 10%, rgba(111,35,143,1) 47%, rgb(1, 113, 233) 80%, rgb(4, 73, 148) 95%);
+    height: 130px;
+    min-width: 130px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: linear-gradient(45deg, rgba(46,36,71,1) 2%, rgb(136, 43, 176) 47%, rgb(1, 113, 233) 80%, rgb(4, 73, 148) 98%);
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
     background-size: 300% 100%; /* Divide el gradiente entre 3 elementos, puedes ajustar este valor */
     background-position: left center; /* Inicialmente posicionado en el inicio del gradiente */
     transition: background-position 0.5s ease; /* Para una transición suave si es necesario */
-  }
+}
+.ContainerTL :hover{
+    cursor: pointer;
+}
   
-  .ContainerTL:nth-child(1) {
-    background-position: left center; /* Primer elemento, primera parte del gradiente */
-  }
-  
-  .ContainerTL:nth-child(2) {
-    background-position: center center; /* Segundo elemento, parte central del gradiente */
-  }
-  
-  .ContainerTL:nth-child(3) {
-    background-position: right center; /* Tercer elemento, parte final del gradiente */
-  }
-  .ContainerTL:nth-child(4) {
-    background-position: left center; /* Tercer elemento, parte final del gradiente */
-  }
-  .ContainerTL:nth-child(5) {
-    background-position: center center; /* Tercer elemento, parte final del gradiente */
-  }
+.ContainerTL:nth-child(3n + 1) {
+    background-position: left center;
+}
+.ContainerTL:nth-child(3n + 2) {
+    background-position: center center;
+}
+.ContainerTL:nth-child(3n + 3) {
+    background-position: right center;
+}
 
-  .ContainerTL:nth-child(6) {
-    background-position: right center;  /* Primer elemento, primera parte del gradiente */
-  }
-
-  .ContainerTL:nth-child(7) {
-    background-position: left center; /* Tercer elemento, parte final del gradiente */
-  }
-  
-  .ContainerTL:nth-child(8) {
-    background-position: center center; /* Segundo elemento, parte central del gradiente */
-  }
-  
-  .ContainerTL:nth-child(9) {
-    background-position: right center; /* Tercer elemento, parte final del gradiente */
-  }
-
-  .ContainerTL:nth-child(10) {
-    background-position: left center; /* Tercer elemento, parte final del gradiente */
-  }
-
-  .ContainerTL:nth-child(11) {
-    background-position: center center; /* Segundo elemento, parte central del gradiente */
-  }
-  
-  .ContainerTL:nth-child(12) {
-    background-position: right center; /* Tercer elemento, parte final del gradiente */
-  }
-  
 .ContainerTL h3{
     margin: 0px;
     margin-bottom: 10px;
@@ -66,8 +36,8 @@
     pointer-events: none;
 }
 .tecnologyL{
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
 }
 .buttonSkill{
     width: 36px;
@@ -90,7 +60,6 @@
 .widthSkill{
     width: 120px;
 }
-
 .textSkillInvisible{
     width: 0;
     overflow: hidden;
@@ -117,7 +86,12 @@
 #tecnologyL1, #tecnologyL5, #tecnologyL9, #tecnologyL10{
     rotate: 180deg;
 }
+
 @media (max-width: 768px) {
+    .ContainerTL {
+      height: 140px;
+      min-width: 120px;
+    }
     .textSkillVisible{
         width: 180px;
     }
