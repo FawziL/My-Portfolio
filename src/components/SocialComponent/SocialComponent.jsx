@@ -11,11 +11,15 @@ function SocialComponent() {
       <div>
         <div className='SocialComponent'> 
           <Tecnologies img={address} />
-          <p>+58 4149541095</p>
+          <a href="https://wa.me/584149541095" target="_blank">
+            <p>+58 4149541095</p>
+          </a>
         </div>  
         <div className='SocialComponent'> 
           <Tecnologies img={envelope} />
-          <p>fawzi.jlr@gmail.com</p>
+          <a href="mailto:fawzi.jlr@gmail.com?subject=Consulta%20sobre%20tu%20producto&body=Hola,%20estoy%20interesado%20en...">
+            <p>fawzi.jlr@gmail.com</p>
+          </a>
         </div>
       </div>
       <div>

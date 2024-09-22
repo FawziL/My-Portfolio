@@ -66,14 +66,14 @@
     opacity: 0;
     transition: width 1.5s, opacity 2s;
     text-align: justify;
-    pointer-events: none;
+    cursor: pointer;
 }
 .textSkillVisible{
     width: 270px;
     overflow: hidden;
     opacity: 1;
     transition: width 1.5s, opacity 2s;
-    pointer-events: none;
+    cursor: pointer;
 }
 .textSkillInvisible, .textSkillVisible{
     color: white;
