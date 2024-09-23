@@ -14,7 +14,7 @@
     background-position: left center; /* Inicialmente posicionado en el inicio del gradiente */
     transition: background-position 0.5s ease; /* Para una transición suave si es necesario */
 }
-.ContainerTL :hover{
+.ContainerTL:hover{
     cursor: pointer;
 }
   
@@ -34,6 +34,7 @@
     font-size: 22px;
     font-weight: bold;
     pointer-events: none;
+    color: white;
 }
 .tecnologyL{
     width: 56px;
