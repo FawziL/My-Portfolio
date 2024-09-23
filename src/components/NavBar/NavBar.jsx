@@ -15,7 +15,7 @@ function NavBar({ toggleTheme, darkMode, handleLanguage, locale }) {
   }
 
   return (
-    <nav  className='pruebaNav'> 
+    <nav  className='Nav'> 
       <div className='dFlexEvenly'>
         <div className='logo'>
           <p className='Fl'>Fawzi Lutfallah</p>

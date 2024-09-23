@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 .presentation{
-    height: 90%;
+    height: 96%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,20 +8,17 @@
     padding-top: 40px;
 }
 .presentation img{
-    width: 74%;
-    height: 90%;
+    width: 380px;
+    height: 420px;
     border-radius: 50%;
     padding-left: 40px;
-    padding-bottom: 35px;
+    padding-bottom: 55px;
 }
 .imgPresentation{
-    background: rgb(90,25,117);
-    background: rgb(46,36,71);
-    background: linear-gradient(45deg, rgba(46,36,71,1) 15%,
-    rgba(111,35,143,1) 40%, rgba(0,123,255,1) 80%);
+    background-color: rgb(67, 33, 101);
     border-radius: 55% 45% 33% 67% / 49% 77% 23% 51% ;
-    height: 80%;
-    width: 42%;
+    height: 70%;
+    width: 36%;
     margin-top: auto;
     margin-bottom: auto;
     filter: drop-shadow(10px 8px 6px rgb(9, 9, 9));
@@ -81,24 +78,25 @@ span h2 {
     margin: 0px
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
     .presentation{
         display: block;
         height: 100%;
         padding-top: 70px;
     }
     .imgPresentation{
-        width: 74%;
+        width: 80%;
+        height: 250px;
         margin: auto;
         margin-top: 15px;
         filter: drop-shadow(6px 6px 3px rgb(0, 0, 0));
     }
     .presentation img{
-        width: 78%;
-        height: auto;
+        width: 230px;
+        height: 240px;
         border-radius: 50%;
-        padding-left: 30px;
-        padding-bottom: 15px;
+        padding: 0px;
+        padding-bottom: 25px;
     }
     .presentationText{
         width: 86%;
@@ -112,7 +110,7 @@ span h2 {
         width: 100%;
     }
     span h2 {
-        width: 290px;
+        width: 310px;
         font-size: 26px;
         animation: typing 2s steps(18), blink .5s infinite step-end alternate;
         overflow:hidden;
@@ -122,6 +120,16 @@ span h2 {
     }
     #homeVh{
         height: 100%;
+    }  
+}
+
+@media (1000px > width > 768px) {
+    .presentation img{
+        width: 400px;
+        height: 400px;
     }
-      
+    .imgPresentation{
+        height: 60%;
+        width: 40%;
+    }
 }

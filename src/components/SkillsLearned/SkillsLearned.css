@@ -1,23 +1,44 @@
-.ContainerTL{
+.ContainerTL {
     margin: 12px;
-    height: 140px;
-    background: linear-gradient(45deg, rgba(46,36,71,1) 15%, rgba(111,35,143,1) 40%, rgba(0,123,255,1) 80%);;
+    height: 130px;
+    min-width: 130px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: linear-gradient(45deg, rgba(46,36,71,1) 2%, rgb(136, 43, 176) 47%, rgb(1, 113, 233) 80%, rgb(4, 73, 148) 98%);
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-size: 300% 100%; /* Divide el gradiente entre 3 elementos, puedes ajustar este valor */
+    background-position: left center; /* Inicialmente posicionado en el inicio del gradiente */
+    transition: background-position 0.5s ease; /* Para una transición suave si es necesario */
 }
+.ContainerTL:hover{
+    cursor: pointer;
+}
+  
+.ContainerTL:nth-child(3n + 1) {
+    background-position: left center;
+}
+.ContainerTL:nth-child(3n + 2) {
+    background-position: center center;
+}
+.ContainerTL:nth-child(3n + 3) {
+    background-position: right center;
+}
+
 .ContainerTL h3{
     margin: 0px;
     margin-bottom: 10px;
     font-size: 22px;
     font-weight: bold;
     pointer-events: none;
+    color: white;
 }
 .tecnologyL{
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
 }
 .buttonSkill{
     width: 36px;
@@ -40,21 +61,20 @@
 .widthSkill{
     width: 120px;
 }
-
 .textSkillInvisible{
     width: 0;
     overflow: hidden;
     opacity: 0;
     transition: width 1.5s, opacity 2s;
     text-align: justify;
-    pointer-events: none;
+    cursor: pointer;
 }
 .textSkillVisible{
     width: 270px;
     overflow: hidden;
     opacity: 1;
     transition: width 1.5s, opacity 2s;
-    pointer-events: none;
+    cursor: pointer;
 }
 .textSkillInvisible, .textSkillVisible{
     color: white;
@@ -67,7 +87,12 @@
 #tecnologyL1, #tecnologyL5, #tecnologyL9, #tecnologyL10{
     rotate: 180deg;
 }
+
 @media (max-width: 768px) {
+    .ContainerTL {
+      height: 140px;
+      min-width: 120px;
+    }
     .textSkillVisible{
         width: 180px;
     }

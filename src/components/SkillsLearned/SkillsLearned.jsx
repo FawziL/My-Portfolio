@@ -1,5 +1,4 @@
 import './SkillsLearned.css';
-import html from '../../assets/icons/arrow-right.svg';
 
 function SkillsLearned({name, tecnology, text, texto, id, locale}) {
 
@@ -10,8 +9,8 @@ function SkillsLearned({name, tecnology, text, texto, id, locale}) {
     if (window.getComputedStyle(p).width === "0px") {
         p.classList.remove(`textSkill${id}`)
         p.classList.add("textSkillVisible");
-
         svg.style.rotate = 180 +"deg";
+        
     } else {
         p.classList.remove("textSkillVisible")
         p.classList.remove(`textSkill${id}`)
@@ -20,16 +19,12 @@ function SkillsLearned({name, tecnology, text, texto, id, locale}) {
     }
   } 
   return (
-    <div className='ContainerTL'>  
+    <div className='ContainerTL' onClick={display}>  
       <div className='widthSkill'>
         <h3 className='textBox'>{name}</h3>
         <img src={tecnology} alt={`Img de alt`} className='tecnologyL'/>
       </div>
-      
       <p id={`textSkill${id}`} className={`textSkill${id} textSkillInvisible`} >{locale === 'en' ? text : texto}</p>
-      <button className='buttonSkill' onClick={display}>
-        <img src={html} id={`tecnologyL${id}`} alt={`Imagen de la tecnologia: tecnologyL${id}`}/>
-      </button>
     </div>
   );
 }
