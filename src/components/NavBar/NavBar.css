@@ -86,8 +86,8 @@ nav a:hover::after {
 }
 
 .dark-mode {
-  background-image: linear-gradient(180deg, #131314f4 5%, rgb(11, 24, 86) 45%,  #131314f4 100%);
-  transition: background-color 0.4s, color 0.4s;
+  background-image: url("/hero-dark.jpg");
+  transition: 2s;
   color: #ffffff;
 }
 .dark-mode a{
@@ -97,7 +97,7 @@ nav a:hover::after {
   background-color: rgba(255, 255, 255, 0.952);
   background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.952) -15%, rgb(11, 24, 86) 65%,  rgba(255, 255, 255, 0.952) 100%);
   color: #000000;
-  transition: background-color 0.4s, color 0.4s;
+  transition: 1s;
 }
 .light-mode a, .Fl, .webDev{
   color: #ffffff;
