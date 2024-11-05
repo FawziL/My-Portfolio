@@ -1,11 +1,22 @@
 import './Services.css';
 import CardService from '../CardService/CardService.jsx'
 import { FormattedMessage} from 'react-intl';
+import { motion, useInView } from 'framer-motion';
+import { useRef } from 'react';
 
 function Services() {
+  const h2Ref = useRef(null);
+  const isInView = useInView(h2Ref, { once: true }); 
   return (
     <div id='Services'>
-      <h2><FormattedMessage id="services"/></h2>
+      <motion.h2
+          ref={h2Ref}
+          initial={{ x: '-50%', opacity: 0 }} // Comienza fuera de la pantalla arriba
+          animate={isInView ? { x: 0, opacity: 1, transition: { type: 'tween', duration: 1 } } : {}}
+          exit={{ opacity: 0 }} // Opción para hacer que desaparezca si se sale de vista
+        >
+          <FormattedMessage id="services"/>
+        </motion.h2>
 
       <p className='text'><FormattedMessage id="servicePresentation"/></p>
 

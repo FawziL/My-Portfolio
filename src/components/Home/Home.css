@@ -55,7 +55,7 @@ span h2 {
     border-right: 4px solid;
     width: 394px;
     font-size: 36px;
-    animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+    animation: typing 1.2s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
     margin: 10px;
     color: white;

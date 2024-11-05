@@ -14,3 +14,22 @@
         justify-items: center;
     }
 }
+
+/* Animación de deslizamiento de izquierda a derecha */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease forwards; /* Cambia la duración aquí */
+}

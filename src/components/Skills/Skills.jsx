@@ -3,10 +3,14 @@ import SkillsLearned from '../SkillsLearned/SkillsLearned.jsx';
 import { FormattedMessage } from 'react-intl';
 import { useState, useEffect } from 'react';
 import { getTecnologies } from '../../info.js';
+import { motion, useInView } from 'framer-motion';
+import { useRef } from 'react';
 
 function Skills({ locale }) {
   const [tecnologies, setTecnologies] = useState([]);
   const [expandedSkills, setExpandedSkills] = useState([]); // Estado para controlar cuáles elementos están expandidos
+  const h2Ref = useRef(null);
+  const isInView = useInView(h2Ref, { once: true }); 
 
   useEffect(() => {
     getTecnologies()
@@ -28,7 +32,14 @@ function Skills({ locale }) {
 
   return (
     <div id='Skills'>
-      <h2><FormattedMessage id="skills" /></h2>
+      <motion.h2
+        ref={h2Ref}
+        initial={{ x: '-70%', opacity: 0 }} // Comienza fuera de la pantalla arriba
+        animate={isInView ? { x: 0, opacity: 1, transition: { type: 'tween', duration: 1 } } : {}}
+        exit={{ opacity: 0 }} // Opción para hacer que desaparezca si se sale de vista
+      >
+        <FormattedMessage id="skills" />
+      </motion.h2>
       <p className='text'><FormattedMessage id="skillPresentation" /></p>
 
       <div className='dFlexSkills'>

@@ -172,7 +172,7 @@ export const getProyects = () =>{
   return new Promise (resolve =>{
       setTimeout(()=>{
           resolve(proyects)
-      },250)
+      },50)
   })
 }
 
