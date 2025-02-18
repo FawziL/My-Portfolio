@@ -96,7 +96,7 @@
     .textSkillVisible{
         width: 180px;
     }
-    .textSkill1, .textSkill4, .textSkill7, .textSkill10{
+    .textSkill1, .textSkill4, .textSkill7, .textSkill10, .textSkill14{
         width: 180px;
         opacity: 1;
         transition: width 1.5s, opacity 2s;
