@@ -79,7 +79,7 @@
 .textSkillInvisible, .textSkillVisible{
     color: white;
 }
-.textSkill1, .textSkill5, .textSkill9, .textSkill10{
+.textSkill1, .textSkill5, .textSkill9, .textSkill10, .textSkill14{
     width: 270px;
     opacity: 1;
     transition: width 1.5s, opacity 2s;

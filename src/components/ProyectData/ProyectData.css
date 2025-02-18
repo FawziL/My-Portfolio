@@ -48,7 +48,7 @@ a img{
     pointer-events: none;
 }
 
-#miDiv1, #miDiv2, #miDiv3, #miDiv4, #miDiv5, #miDiv6{
+#miDiv1, #miDiv2, #miDiv3, #miDiv4, #miDiv5, #miDiv6, #miDiv7{
     height: 0;
     overflow: hidden;
     opacity: 0;
