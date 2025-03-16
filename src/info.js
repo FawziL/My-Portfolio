@@ -23,7 +23,7 @@ import proyectSystemReservation from "./assets/proyects/system-reservation.png";
 const proyects = [
     {
         id: "7",
-        title: "Biblioteca",
+        title: "System Reservation",
         proyectThumbnail: proyectSystemReservation,
         text: "Web platform for managing room and table reservations with email confirmation. An administration panel allows you to monitor reservations, tables, availability, and receive real-time notifications using socket.io.",
         texto: "Plataforma web para gestión de reservas (habitaciones/mesas) con confirmación por correo y panel de administración para controlar reservas, mesas, disponibilidad y notificaciones en tiempo real con socket.io.",
@@ -42,16 +42,6 @@ const proyects = [
         tecnologies: [react, nodejs, postgresql, tailwind],
     },
     {
-        id: "5",
-        title: "Chat",
-        proyectThumbnail: proyectChat,
-        text: "Real-time interactive chat platform with private rooms for each registered user. This is a personal project to sharpen my full-stack development skills by utilizing technologies I haven't yet mastered.",
-        texto: "Plataforma de chat interactivo en tiempo real con salas privadas para cada usuario registrado. Este es un proyecto personal para afinar mis habilidades como desarrollaor fullstack y hacer uso de tecnologías que no dominaba.",
-        code: "https://github.com/FawziL/Proyecto-Chat",
-        live: "https://chat-kxsz.onrender.com",
-        tecnologies: [react, nodejs, mongodb, tailwind],
-    },
-    {
         id: "4",
         title: "Forbes",
         proyectThumbnail: proyectForbes,
@@ -59,7 +49,7 @@ const proyects = [
         texto: "Aplicación web sofisticada diseñada para facilitar la gestión eficiente de propiedades residenciales para el personal de la empresa, permitiendo el almacenamiento y publicación fluida de propiedades disponibles para la venta.",
         code: "https://github.com/FawziL/Proyecto-Forbes",
         live: "https://forbes-djnp.onrender.com",
-        tecnologies: [html, css, javascript, nodejs, mongodb, bootstrap],
+        tecnologies: [html, css, javascript, nodejs, mongodb],
     },
     {
         id: "3",
@@ -70,6 +60,16 @@ const proyects = [
         code: "https://github.com/FawziL/TEG",
         live: "https://deploy-7jsa.onrender.com",
         tecnologies: [html, css, javascript, nodejs, postgresql],
+    },
+    {
+        id: "2",
+        title: "Chat",
+        proyectThumbnail: proyectChat,
+        text: "Real-time interactive chat platform with private rooms for each registered user. This is a personal project to sharpen my full-stack development skills by utilizing technologies I haven't yet mastered.",
+        texto: "Plataforma de chat interactivo en tiempo real con salas privadas para cada usuario registrado. Este es un proyecto personal para afinar mis habilidades como desarrollaor fullstack y hacer uso de tecnologías que no dominaba.",
+        code: "https://github.com/FawziL/Proyecto-Chat",
+        live: "https://chat-kxsz.onrender.com",
+        tecnologies: [react, nodejs, mongodb, tailwind],
     },
     {
         id: "1",

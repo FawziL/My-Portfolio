@@ -92,7 +92,7 @@ nav a:hover::after {
 }
 .dark-mode a{
   color: #ffffff;
-  transition: 2s;
+  transition: 500ms;
 }
 .light-mode {
   background-color: rgba(255, 255, 255, 0.952);

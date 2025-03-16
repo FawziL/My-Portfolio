@@ -1,43 +1,59 @@
 .proyect{
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;
+    width: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: rgba(129, 77, 181, 0.067)
+}
+.proyect:hover {
+    transform: translateY(-5px);
+    
 }
 .proyect h3{
     margin: 0px;
-    font-size: 18px;    
+    font-size: 22px;    
+}
+.titleTecnologies{
+    margin-top: 12px;
+    margin-bottom: 5px;
+    text-align: start;
+    font-size: 18px;  
 }
 .proyectImg{
+    padding-top: 10px;
     width: 300px;
     height: 210px;
     border-radius: 2px;
-    margin: 10px;
+    margin: 0px;
+    margin-bottom: 10px;
 }
 .buttonCL{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 300px;
+    margin-bottom: 5px;
 }
 .pages{
     display: flex;
     margin: 0px;
     margin-left: 10px;
     margin-right: 0px;
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 4px;
     color: white;
 }
 .pages:hover{
     background-color: #007bff;
-    transition: 500ms;
+    transition: 100ms;
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
 }
 a img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     margin: 0px;
 }
 .dataInformationProyect{
@@ -48,51 +64,23 @@ a img{
     pointer-events: none;
 }
 
-#miDiv1, #miDiv2, #miDiv3, #miDiv4, #miDiv5, #miDiv6, #miDiv7{
-    height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: height 0.5s, opacity 0.5s;
-}
-.buttonTecnologies{
-    border-radius: 3px;
-    width: 300px;
-    border: none;
-    background-color:rgb(77, 38, 117);
-    color: white;
-    padding: 6px;
-    margin: 0px;
-    margin-top: 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-.buttonTecnologies:hover{
-    background-color: rgb(56, 48, 62);
-    transition: 1000ms;
-}
 @media (max-width: 768px) {
     .proyectImg{
         margin: 0px;
     }
     .pages{
         margin: 10px;
+        margin-right: 0px;
     }
     .section{
         display: block;
         margin-top: 10px;
     }
-    .with200{
-        width: 100%;
-        margin: auto;
-    }
-    .tecnologies{
-        margin: 10px 35px 0px 35px;
-        border-color: rgb(59, 55, 94);
-        border-style: solid;
-        border-radius: 15px;
+    .proyect h3 {
+        font-size: 20px;
     }
     .dataInformationProyect{
-        width: 100%;
+        width: 290px;
         margin-top: 0px;
     }
 }
