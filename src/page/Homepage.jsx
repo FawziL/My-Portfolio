@@ -1,9 +1,9 @@
-import NavBar from "../components/NavBar/NavBar";
-import Home from "../components/Home/Home";
-import ProyectsContainer from "../components/ProyectsContainer/ProyectsContainer";
-import Services from "../components/Services/Services";
-import Skills from "../components/Skills/Skills";
-import Contact from "../components/Contact/Contact";
+import NavBar from "@/components/NavBar/NavBar";
+import Home from "@/components/Home/Home";
+import ProyectsContainer from "@/components/ProyectsContainer/ProyectsContainer";
+import Services from "@/components/Services/Services";
+import Skills from "@/components/Skills/Skills";
+import Contact from "@/components/Contact/Contact";
 
 const LandingPage = ({ locale, darkMode, toggleTheme, handleLanguage }) => {
     return (

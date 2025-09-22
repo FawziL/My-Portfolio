@@ -1,9 +1,9 @@
 import "./App.css";
 import { useState } from "react";
 import { IntlProvider } from "react-intl";
-import LandingPage from "./page/Homepage";
-import enMessages from "./en.json";
-import esMessages from "./es.json";
+import LandingPage from "@/page/Homepage";
+import enMessages from "@/messages/en.json";
+import esMessages from "@/messages/es.json";
 
 function App() {
     const [darkMode, setTheme] = useState(true);

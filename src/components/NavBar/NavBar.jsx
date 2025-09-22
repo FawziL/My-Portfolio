@@ -1,9 +1,9 @@
 import "./NavBar.css";
-import sun from "../../assets/icons/sun.svg";
-import moon from "../../assets/icons/moon.svg";
-import esLight from "../../assets/icons/esLight.png";
-import enLight from "../../assets/icons/enLight.png";
-import menuSun from "../../assets/icons/menu-dark.png";
+import sun from "@/assets/icons/sun.svg";
+import moon from "@/assets/icons/moon.svg";
+import esLight from "@/assets/icons/esLight.png";
+import enLight from "@/assets/icons/enLight.png";
+import menuSun from "@/assets/icons/menu-dark.png";
 import { FormattedMessage } from "react-intl";
 import { useState } from "react";
 

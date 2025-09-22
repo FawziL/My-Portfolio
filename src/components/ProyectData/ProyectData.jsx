@@ -1,7 +1,7 @@
 import "./ProyectData.css";
-import github from "../../assets/icons/github.svg";
-import Tecnologies from "../Tecnologies/Tecnologies";
-import arrow from "../../assets/icons/arrowPurple.svg";
+import github from "@/assets/icons/github.svg";
+import Tecnologies from "@/components/Tecnologies/Tecnologies";
+import arrow from "@/assets/icons/arrowPurple.svg";
 import { FormattedMessage } from "react-intl";
 
 function ProyectData({

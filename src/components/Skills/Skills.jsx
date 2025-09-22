@@ -1,8 +1,8 @@
 import "./Skills.css";
-import SkillsLearned from "../SkillsLearned/SkillsLearned.jsx";
+import SkillsLearned from "@/components/SkillsLearned/SkillsLearned.jsx";
 import { FormattedMessage } from "react-intl";
 import { useState, useEffect } from "react";
-import { getTecnologies } from "../../info.js";
+import { getTecnologies } from "@/data/info.js";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 

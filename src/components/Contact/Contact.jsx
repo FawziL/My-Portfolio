@@ -1,12 +1,12 @@
 import "./Contact.css";
-import ButtonDownload from "../ButtonDownload/ButtonDownload";
-import Footer from "../Footer/Footer";
+import ButtonDownload from "@/components/ButtonDownload/ButtonDownload";
+import Footer from "@/components/Footer/Footer";
 import { FormattedMessage } from "react-intl";
-import Tecnologies from "../Tecnologies/Tecnologies";
-import github from "../../assets/icons/github.svg";
-import linkedin from "../../assets/icons/linkedin.svg";
-import address from "../../assets/icons/address.svg";
-import envelope from "../../assets/icons/envelope.svg";
+import Tecnologies from "@/components/Tecnologies/Tecnologies";
+import github from "@/assets/icons/github.svg";
+import linkedin from "@/assets/icons/linkedin.svg";
+import address from "@/assets/icons/address.svg";
+import envelope from "@/assets/icons/envelope.svg";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 

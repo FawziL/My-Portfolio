@@ -1,5 +1,5 @@
 import "./Services.css";
-import CardService from "../CardService/CardService.jsx";
+import CardService from "@/components/CardService/CardService.jsx";
 import { FormattedMessage } from "react-intl";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";

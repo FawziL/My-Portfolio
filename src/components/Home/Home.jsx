@@ -1,7 +1,7 @@
 import "./Home.css";
-import ButtonDownload from "../ButtonDownload/ButtonDownload";
+import ButtonDownload from "@/components/ButtonDownload/ButtonDownload";
 import { FormattedMessage } from "react-intl";
-import Yo from "../../assets/fotoHome.png";
+import Yo from "@/assets/fotoHome.png";
 import { motion } from "framer-motion";
 
 function Home() {

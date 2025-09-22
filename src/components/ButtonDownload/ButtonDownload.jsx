@@ -1,5 +1,5 @@
 import "./ButtonDownload.css";
-import CV from "../../assets/CV Fawzi Lutfallah.pdf";
+import CV from "@/assets/CV Fawzi Lutfallah.pdf";
 import { FormattedMessage } from "react-intl";
 
 function ButtonDownload() {

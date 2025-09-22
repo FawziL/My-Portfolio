@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import ProyectData from "../ProyectData/ProyectData.jsx";
-import { getProyects } from "../../info.js";
+import ProyectData from "@/components/ProyectData/ProyectData.jsx";
+import { getProyects } from "@/data/info.js";
 import { FormattedMessage } from "react-intl";
 import "./ProyectsContainer.css";
 import { motion, useInView } from "framer-motion";
