@@ -39,7 +39,7 @@
 .presentation p{
     font-size: 18px;
     pointer-events: none;
-    width: 80%;
+    width: 95%;
 }
 @keyframes blink {
     50% { border-color: transparent }

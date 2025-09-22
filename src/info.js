@@ -12,6 +12,8 @@ import postgresql from "./assets/icons/postgresql.svg";
 import tailwind from "./assets/icons/tailwind.svg";
 import nestjs from "./assets/icons/nestjs.svg";
 import nextjs from "./assets/icons/nextjs.svg";
+import laravel from "./assets/icons/laravel.svg";
+import mysql from "./assets/icons/mysql.svg";
 
 import proyectUIC from "./assets/proyects/UIC.png";
 import proyectForbes from "./assets/proyects/forbes.png";
@@ -19,8 +21,19 @@ import proyectDalacer from "./assets/proyects/dalacer.png";
 import proyectChat from "./assets/proyects/chat.png";
 import proyectBiblioteca from "./assets/proyects/biblioteca.png";
 import proyectSystemReservation from "./assets/proyects/system-reservation.png";
+import proyectSamgog from "./assets/proyects/samgog.png";
 
 const proyects = [
+    {
+        id: "8",
+        title: "Samgog",
+        proyectThumbnail: proyectSamgog,
+        text: "Web platform for a vehicle import company from Korea to Venezuela. Users can explore available vehicles, request quotes, and contact the company directly for personalized assistance.",
+        texto: "Plataforma web para importadora de vehículos de Corea a Venezuela. Los usuarios pueden explorar vehículos disponibles, solicitar cotizaciones y contactar directamente a la empresa para recibir atención personalizada.",
+        code: "",
+        live: "https://samgog.shop/es",
+        tecnologies: [nextjs, tailwind, laravel, mysql],
+    },
     {
         id: "7",
         title: "System Reservation",
@@ -45,9 +58,9 @@ const proyects = [
         id: "4",
         title: "Forbes",
         proyectThumbnail: proyectForbes,
-        text: "Sophisticated web application designed to facilitate efficient house management for the company's personnel, enabling seamless storage and publication of properties available for sale.",
-        texto: "Aplicación web sofisticada diseñada para facilitar la gestión eficiente de propiedades residenciales para el personal de la empresa, permitiendo el almacenamiento y publicación fluida de propiedades disponibles para la venta.",
-        code: "https://github.com/FawziL/Proyecto-Forbes",
+        text: "Web application designed to facilitate efficient house management for the company's personnel, enabling seamless storage and publication of properties available for sale.",
+        texto: "Aplicación web diseñada para facilitar la gestión eficiente de propiedades residenciales para el personal de la empresa, permitiendo el almacenamiento y publicación fluida de propiedades disponibles para la venta.",
+        code: "",
         live: "https://forbes-djnp.onrender.com",
         tecnologies: [html, css, javascript, nodejs, mongodb],
     },
@@ -181,6 +194,13 @@ const tecnologies = [
         text: "Next.js is a React framework for building server-rendered and statically generated applications.",
         texto: "Next.js es un framework de React para construir aplicaciones renderizadas en el servidor y generadas estáticamente.",
         tecnology: nextjs,
+    },
+    {
+        id: 15,
+        name: "Laravel",
+        text: "Laravel is a robust PHP framework for building web applications. It offers expressive and elegant syntax making development faster and more enjoyable.",
+        texto: "Laravel es un robusto framework de PHP para crear aplicaciones web. Ofrece una sintaxis expresiva facilitando y agilizando el desarrollo.",
+        tecnology: laravel,
     },
 ];
 

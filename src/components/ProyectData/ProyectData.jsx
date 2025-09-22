@@ -26,14 +26,16 @@ function ProyectData({
             <div className="buttonCL">
                 <h3>{title}</h3>
                 <div className="dFlex">
-                    <a
-                        href={code}
-                        className="pages"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img src={github} alt="logo GitHub" />
-                    </a>
+                    {code !== "" && (
+                        <a
+                            href={code}
+                            className="pages"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <img src={github} alt="logo GitHub" />
+                        </a>
+                    )}
                     <a
                         href={live}
                         className="pages"

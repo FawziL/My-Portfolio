@@ -79,7 +79,7 @@
 .textSkillInvisible, .textSkillVisible{
     color: white;
 }
-.textSkill1, .textSkill5, .textSkill9, .textSkill10, .textSkill14{
+.textSkill1, .textSkill5, .textSkill9, .textSkill11, .textSkill13{
     width: 270px;
     opacity: 1;
     transition: width 1.5s, opacity 2s;
@@ -96,7 +96,7 @@
     .textSkillVisible{
         width: 180px;
     }
-    .textSkill1, .textSkill4, .textSkill7, .textSkill10, .textSkill14{
+    .textSkill1, .textSkill4, .textSkill7, .textSkill10, .textSkill13{
         width: 180px;
         opacity: 1;
         transition: width 1.5s, opacity 2s;
@@ -107,7 +107,7 @@
     #tecnologyL5, #tecnologyL9, #tecnologyL10{
         rotate: 0deg;
     }
-    .textSkill5, .textSkill9{
+    .textSkill5, .textSkill9, .textSkill11{
         width: 0;
         overflow: hidden;
         opacity: 0;
