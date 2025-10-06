@@ -41,10 +41,10 @@ function Contact() {
                         <div className="SocialComponent">
                             <Tecnologies img={address} />
                             <a
-                                href="https://wa.me/584149541095"
+                                href="https://wa.me/584128388230"
                                 target="_blank"
                             >
-                                <p>+58 4149541095</p>
+                                <p>+58 4128388230</p>
                             </a>
                         </div>
                         <div className="SocialComponent">
