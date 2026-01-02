@@ -1,14 +1,17 @@
 import "./ButtonDownload.css";
-import CV from "@/assets/CV Fawzi Lutfallah.pdf";
-import { FormattedMessage } from "react-intl";
+import CVEspañol from "@/assets/CV Fawzi Lutfallah.pdf";
+import CVIngles from "@/assets/Fawzi Lutfallah CV.pdf";
+import { FormattedMessage, useIntl } from "react-intl";
 
 function ButtonDownload() {
-    const ButtonDownload = () => {
-        window.open(CV);
+    const intl = useIntl();
+
+    const handleDownload = () => {
+        window.open(intl.locale === "es" ? CVEspañol : CVIngles);
     };
 
     return (
-        <button onClick={ButtonDownload} className="ButtonDownload">
+        <button onClick={handleDownload} className="ButtonDownload">
             <FormattedMessage id="buttonDownload" />
         </button>
     );

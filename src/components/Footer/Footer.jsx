@@ -2,11 +2,12 @@ import "./Footer.css";
 import { FormattedMessage } from "react-intl";
 
 function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <footer>
             <hr />
             <p>
-                © 2023-2025 [Fawzi Lutfallah] - <FormattedMessage id="rights" />
+                © {currentYear} [Fawzi Lutfallah] - <FormattedMessage id="rights" />
             </p>
         </footer>
     );
